@@ -38,7 +38,7 @@ nonlinearities_dict, nonlinearity = {"relu": torch.nn.functional.relu, "tanhshri
 nets_folder = "results/nets/"
 
 args_dict = {}
-weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.0001, 200, True, 5 #Original Learning rate 0.01 
+weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.0001, 200, True, 10 #Original Learning rate 0.01 
 
 model, scoring_rule = 'WeatherBench', 'SignatureKernel' #Doesn't matter?    
 cuda, continue_training_net, start_epoch_early_stopping, use_tqdm, method_is_gan  = True, False, 40, True, False
