@@ -1,0 +1,24 @@
+/scrtp/avon/eb/software/PyTorch/2.1.2-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+unet
+Test SR network for WeatherBench model using SignatureKernel scoring rule
+Load weatherbench dataset...
+Loading data into RAM
+CPU memory used (MB) 17
+Loading data into RAM
+CPU memory used (MB) 5
+Loading data into RAM
+CPU memory used (MB) 2
+Loaded
+Validation set size: 720
+Test set size: 354
+find mean and std here
+Traceback (most recent call last):
+  File "/gpfs/home/stats/stubxk/TaskFarmWeather6/PatchedWeatherCombinedP2L4Test/Metricspy200Signature.py", line 283, in <module>
+    net.resetseed()
+    ^^^^^^^^^^^^^
+  File "/scrtp/avon/eb/software/PyTorch/2.1.2-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1695, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'ConditionalGenerativeModel' object has no attribute 'resetseed'
+srun: error: node155: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=1498462.0

@@ -1,0 +1,18 @@
+/scrtp/avon/eb/software/PyTorch/2.1.2-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+rnn
+Test SR network for lorenz96 model using SignatureKernel scoring rule
+torch.Size([1999, 200, 2, 8])
+three metrics
+[5.1113744 5.0231113 5.0256047 5.095637  5.089759  5.0384326 5.1302834
+ 5.0635767 5.1134458 5.0170927 5.028764  5.0958023 5.0902543 5.037895
+ 5.1331687 5.0617437]
+/scrtp/avon/eb/software/PyTorch/2.1.2-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+rnn
+Test SR network for lorenz96 model using SignatureKernel scoring rule
+torch.Size([1999, 200, 2, 8])
+three metrics
+[5.1113744 5.0231113 5.0256047 5.095637  5.089759  5.0384326 5.1302834
+ 5.0635767 5.1134458 5.0170927 5.028764  5.0958023 5.0902543 5.037895
+ 5.1331687 5.0617437]
