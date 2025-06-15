@@ -125,13 +125,13 @@ class SignatureKernel(ScoringRule):
 
     def __init__(self):
         self.logger = logging.getLogger("Signature Kernel Score")
-        self.weights = np.array([0.07704437, 0.23039114, 0.38151911, 0.52897285, 0.67133229,
-       0.80722643, 0.93534654, 1.05445875, 1.16341595, 1.26116882,
-       1.34677594, 1.41941287, 1.47838008, 1.52310968, 1.55317091,
-       1.56827425, 1.56827425, 1.55317091, 1.52310968, 1.47838008,
-       1.41941287, 1.34677594, 1.26116882, 1.16341595, 1.05445875,
-       0.93534654, 0.80722643, 0.67133229, 0.52897285, 0.38151911,
-       0.23039114, 0.07704437])
+    #     self.weights = np.array([0.07704437, 0.23039114, 0.38151911, 0.52897285, 0.67133229,
+    #    0.80722643, 0.93534654, 1.05445875, 1.16341595, 1.26116882,
+    #    1.34677594, 1.41941287, 1.47838008, 1.52310968, 1.55317091,
+    #    1.56827425, 1.56827425, 1.55317091, 1.52310968, 1.47838008,
+    #    1.41941287, 1.34677594, 1.26116882, 1.16341595, 1.05445875,
+    #    0.93534654, 0.80722643, 0.67133229, 0.52897285, 0.38151911,
+    #    0.23039114, 0.07704437])
 
     def estimate_score_batch(self, forecast: TensorType["batch", "ensemble_size", "data_size"],
                              verification: TensorType["batch", "data_size"], mean:TensorType["meanval"], std:TensorType["stdval"]) -> TensorType[float]:
@@ -143,16 +143,6 @@ class SignatureKernel(ScoringRule):
         #Input Forecast (Ensemble, PathLength, Lat, Long, 1)
         #Input Verification (1,PathLength,Lat,Long,1)
 
-
-        # print(forecast.shape) #5,9,1
-        # print(verification.shape) #1,9,1
-        # # ensemble size is the length size
-        # verification is observations 
-
-        #print('in scoring rule kernel sig')
-        #print(forecast)
-        #print(verification)
-        #print(forecast[0,:,0])
 
         verification = (verification- mean) / std
         forecast = (forecast- mean) / std

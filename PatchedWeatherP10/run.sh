@@ -20,7 +20,7 @@ module load SciPy-bundle
 source ~/ArcherDissEnv3/bin/activate  #Change environment
 
 #srun python Training_pot_tristable_rescaled.py
-srun python TestWeatherBench.py
+srun python TestWeatherBench.py "$@"
 
 #srun python Training_pot_additional_rescaled.py
 

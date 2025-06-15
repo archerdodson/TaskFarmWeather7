@@ -689,9 +689,9 @@ class ConditionalGenerativeModel(nn.Module):
         self.distribution = distribution_dict[base_measure](loc=torch.tensor([0.0]), scale=torch.tensor([1.0]))
         #Add in third parameter seed 
 
-    def resetseed(self):
-        self.seed = 0
-        torch.random.manual_seed(self.seed)
+    # def resetseed(self):
+    #     self.seed = 0
+    #     torch.random.manual_seed(self.seed)
 
     def forward(self, context: Union[TensorType["batch_size", "window_size", "data_size"], TensorType[
         "batch_size", "window_size", "height", "width", "fields"]],
@@ -1369,7 +1369,7 @@ def test_epochlongerpredictionbatch(val_loader, model, loss_fn, cuda, prediction
 
                 forecasts = []
 
-                model.resetseed()
+                #model.resetseed()
 
                 for step in range(prediction_length):
                     onesteps = []
@@ -1454,7 +1454,7 @@ def train_epoch_longerpredictionbatch_single(train_loader, model, loss_fn, optim
             forecasts = []
         
             #Reset seed here 
-            model.resetseed()
+            #model.resetseed()
             #seed changing for prediction length 
             # after initilaisation above make small function which gets called here to reset back to zero
 
@@ -1573,7 +1573,7 @@ def train_epoch_longerpredictionbatch(train_loader, model, loss_fn, optimizer, c
             forecasts = []
         
             #Reset seed here 
-            model.resetseed()
+            #model.resetseed()
             #seed changing for prediction length 
             # after initilaisation above make small function which gets called here to reset back to zero
 
