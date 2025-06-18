@@ -157,6 +157,12 @@ class SignatureKernel(ScoringRule):
         batch_size, seq_len, feature_dim = forecast.shape
 
 
+        order = seq_len * feature_dim
+        ordersquare = np.sqrt(order)
+        verification = verification/ordersquare
+        forecast = forecast/ordersquare
+        
+
         zerosX = torch.zeros(batch_size, 1, feature_dim, device=forecast.device)
         zerosY = torch.zeros(1, 1, feature_dim, device=forecast.device)
         #forecast  # Shape: [batch_size, 1, feature_dim]

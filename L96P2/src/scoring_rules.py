@@ -156,6 +156,11 @@ class SignatureKernel(ScoringRule):
         #Sig kernels transform function requires sending to numpy which can't work.
         batch_size, seq_len, feature_dim = forecast.shape
 
+        order = seq_len * feature_dim
+        ordersquare = np.sqrt(order)
+        verification = verification/ordersquare
+        forecast = forecast/ordersquare
+
 
         zerosX = torch.zeros(batch_size, 1, feature_dim, device=forecast.device)
         zerosY = torch.zeros(1, 1, feature_dim, device=forecast.device)
