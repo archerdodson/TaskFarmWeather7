@@ -1,0 +1,3324 @@
+Loading data into RAM
+CPU memory used (MB) 17
+Loading data into GPU
+GPU memory used (MB) 17
+Loading data into RAM
+CPU memory used (MB) 5
+Loading data into GPU
+GPU memory used (MB) 5
+Training set size: 2177
+Validation set size: 717
+Train SR network for WeatherBench model with lr 0.03 using SignatureKernel scoring rule
+reached train
+  0%|          | 0/200 [00:00<?, ?it/s]/gpfs/home/stats/stubxk/ArcherDissEnv3/lib/python3.11/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 9 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+/gpfs/home/stats/stubxk/ArcherDissEnv3/lib/python3.11/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 3 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+yo
+torch.Size([16, 10, 32, 64, 1])
+torch.Size([16, 5, 32, 64, 1])
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.962631385742027
+energyscore: 1269.888671875
+energyscore scaled: 19.842010498046875
+combined: 11.879379112304848
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.507194408888841
+energyscore: 1424.162841796875
+energyscore scaled: 22.252544403076172
+combined: 14.74534999418733
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.31015287124358
+energyscore: 1470.052978515625
+energyscore scaled: 22.96957778930664
+combined: 15.65942491806306
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -6.663168203283313
+energyscore: 1442.4095458984375
+energyscore scaled: 22.537649154663086
+combined: 15.874480951379773
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.819208280221859
+energyscore: 1377.80078125
+energyscore scaled: 21.52813720703125
+combined: 13.708928926809392
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.141672902549114
+energyscore: 1385.3507080078125
+energyscore scaled: 21.64610481262207
+combined: 14.504431910072956
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.642321332307969
+energyscore: 1258.625244140625
+energyscore scaled: 19.666019439697266
+combined: 12.023698107389297
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.771107748638487
+energyscore: 1482.99853515625
+energyscore scaled: 23.171852111816406
+combined: 15.40074436317792
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.0448411437147325
+energyscore: 1372.3250732421875
+energyscore scaled: 21.44257926940918
+combined: 14.397738125694447
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.0406164070238635
+energyscore: 1382.794189453125
+energyscore scaled: 21.606159210205078
+combined: 14.565542803181215
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -8.038200170394031
+energyscore: 1453.45263671875
+energyscore scaled: 22.71019744873047
+combined: 14.671997278336438
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.993313228382313
+energyscore: 1459.701904296875
+energyscore scaled: 22.807842254638672
+combined: 14.81452902625636
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.007155226469734
+energyscore: 1421.852294921875
+energyscore scaled: 22.216442108154297
+combined: 15.209286881684562
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.881466249013399
+energyscore: 1372.7733154296875
+energyscore scaled: 21.449583053588867
+combined: 13.568116804575467
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.418552990446662
+energyscore: 1440.990234375
+energyscore scaled: 22.515472412109375
+combined: 15.096919421662713
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -7.052480284008054
+energyscore: 1339.772216796875
+energyscore scaled: 20.933940887451172
+combined: 13.881460603443118
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 7.212137248605849
+energyscore: 1543.14794921875
+energyscore scaled: 24.11168670654297
+combined: 31.323823955148818
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -2.287693773589634
+energyscore: 1504.44677734375
+energyscore scaled: 23.506980895996094
+combined: 21.21928712240646
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 5.133109579223307
+energyscore: 1327.190185546875
+energyscore scaled: 20.737346649169922
+combined: 25.87045622839323
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -2.5631265493764306
+energyscore: 1560.80078125
+energyscore scaled: 24.38751220703125
+combined: 21.82438565765482
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -5.973742201881985
+energyscore: 1608.394287109375
+energyscore scaled: 25.131160736083984
+combined: 19.157418534202
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -3.871905831907116
+energyscore: 1289.673828125
+energyscore scaled: 20.151153564453125
+combined: 16.279247732546008
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -5.1602217066345535
+energyscore: 1348.279296875
+energyscore scaled: 21.066864013671875
+combined: 15.906642307037322
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 2.2585559240849387
+energyscore: 1522.5616455078125
+energyscore scaled: 23.79002571105957
+combined: 26.048581635144508
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 2.3451034074424895
+energyscore: 1469.95947265625
+energyscore scaled: 22.968116760253906
+combined: 25.313220167696397
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 2.9555363730399518
+energyscore: 1419.217529296875
+energyscore scaled: 22.175273895263672
+combined: 25.130810268303623
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 2.485111187790451
+energyscore: 1562.241455078125
+energyscore scaled: 24.410022735595703
+combined: 26.895133923386155
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 2.8646234299406417
+energyscore: 1439.6181640625
+energyscore scaled: 22.494033813476562
+combined: 25.358657243417206
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -0.9915759561205149
+energyscore: 1424.574951171875
+energyscore scaled: 22.258983612060547
+combined: 21.267407655940033
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -4.819038370960723
+energyscore: 1560.59228515625
+energyscore scaled: 24.384254455566406
+combined: 19.565216084605684
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -4.874142486680135
+energyscore: 1342.7633056640625
+energyscore scaled: 20.980676651000977
+combined: 16.10653416432084
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: 3.5820345906882602
+energyscore: 1486.0172119140625
+energyscore scaled: 23.219018936157227
+combined: 26.801053526845486
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.232705572627415
+energyscore: 1436.894287109375
+energyscore scaled: 22.451473236083984
+combined: 12.21876766345657
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.249689577814937
+energyscore: 1238.4744873046875
+energyscore scaled: 19.351163864135742
+combined: 9.101474286320805
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.135335699215581
+energyscore: 1472.022705078125
+energyscore scaled: 23.000354766845703
+combined: 12.865019067630122
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.409893924027186
+energyscore: 1414.054931640625
+energyscore scaled: 22.094608306884766
+combined: 12.68471438285758
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.25743818328181
+energyscore: 1349.413818359375
+energyscore scaled: 21.084590911865234
+combined: 10.827152728583425
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.870868213393788
+energyscore: 1437.176513671875
+energyscore scaled: 22.455883026123047
+combined: 12.58501481272926
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.979556251629624
+energyscore: 1452.6500244140625
+energyscore scaled: 22.697656631469727
+combined: 12.718100379840102
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.368865619390911
+energyscore: 1424.210205078125
+energyscore scaled: 22.253284454345703
+combined: 12.884418834954792
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.083003435943745
+energyscore: 1424.032958984375
+energyscore scaled: 22.25051498413086
+combined: 12.167511548187115
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.38569326838996
+energyscore: 1489.263427734375
+energyscore scaled: 23.26974105834961
+combined: 13.884047789959649
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.668564284158183
+energyscore: 1441.2659912109375
+energyscore scaled: 22.5197811126709
+combined: 12.851216828512715
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.607973454090605
+energyscore: 1420.1083984375
+energyscore scaled: 22.189193725585938
+combined: 12.581220271495333
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.29879083314949
+energyscore: 1485.931396484375
+energyscore scaled: 23.21767807006836
+combined: 13.91888723691887
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.404255618258215
+energyscore: 1479.37060546875
+energyscore scaled: 23.11516571044922
+combined: 13.710910092191003
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -10.051050601298185
+energyscore: 1388.58154296875
+energyscore scaled: 21.69658660888672
+combined: 11.645536007588534
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -9.78701290537232
+energyscore: 1489.732421875
+energyscore scaled: 23.277069091796875
+combined: 13.490056186424555
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.850171162486326
+energyscore: 1379.03857421875
+energyscore scaled: 21.54747772216797
+combined: 8.697306559681643
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.825380634883226
+energyscore: 1461.585693359375
+energyscore scaled: 22.837276458740234
+combined: 10.011895823857008
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.865508850415857
+energyscore: 1342.0850830078125
+energyscore scaled: 20.97007942199707
+combined: 8.104570571581213
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.788399183026836
+energyscore: 1472.114501953125
+energyscore scaled: 23.001789093017578
+combined: 10.213389909990742
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.768296633078165
+energyscore: 1496.60498046875
+energyscore scaled: 23.38445281982422
+combined: 10.616156186746053
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.852478226102626
+energyscore: 1349.7855224609375
+energyscore scaled: 21.09039878845215
+combined: 8.237920562349522
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.776737454709238
+energyscore: 1568.35693359375
+energyscore scaled: 24.505577087402344
+combined: 11.728839632693106
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.819569588819563
+energyscore: 1477.0
+energyscore scaled: 23.078125
+combined: 10.258555411180437
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.804720452498637
+energyscore: 1546.73828125
+energyscore scaled: 24.16778564453125
+combined: 11.363065192032613
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.749656997073338
+energyscore: 1569.087158203125
+energyscore scaled: 24.516986846923828
+combined: 11.76732984985049
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.85746927180412
+energyscore: 1307.82080078125
+energyscore scaled: 20.43470001220703
+combined: 7.577230740402911
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.837226830320507
+energyscore: 1471.773681640625
+energyscore scaled: 22.996463775634766
+combined: 10.159236945314259
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.837380242026674
+energyscore: 1493.1494140625
+energyscore scaled: 23.330459594726562
+combined: 10.493079352699889
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.815111485420244
+energyscore: 1387.73681640625
+energyscore scaled: 21.683387756347656
+combined: 8.868276270927412
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.847698335586369
+energyscore: 1409.101806640625
+energyscore scaled: 22.017215728759766
+combined: 9.169517393173397
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.855588869525231
+energyscore: 1472.978515625
+energyscore scaled: 23.015289306640625
+combined: 10.159700437115394
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.045108602887492
+energyscore: 1547.6295166015625
+energyscore scaled: 24.181711196899414
+combined: 12.136602594011922
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.111164810033028
+energyscore: 1581.380859375
+energyscore scaled: 24.709075927734375
+combined: 12.597911117701347
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.034161552898777
+energyscore: 1510.237548828125
+energyscore scaled: 23.597461700439453
+combined: 11.563300147540676
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.209754149510697
+energyscore: 1615.4178466796875
+energyscore scaled: 25.240903854370117
+combined: 13.03114970485942
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.134957285514725
+energyscore: 1516.5040283203125
+energyscore scaled: 23.695375442504883
+combined: 11.560418156990158
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.124497946422977
+energyscore: 1529.11669921875
+energyscore scaled: 23.89244842529297
+combined: 11.767950478869992
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.249874976819903
+energyscore: 1433.556640625
+energyscore scaled: 22.399322509765625
+combined: 10.149447532945722
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.252179007970998
+energyscore: 1440.891357421875
+energyscore scaled: 22.513927459716797
+combined: 10.261748451745799
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.315350569583977
+energyscore: 1365.66015625
+energyscore scaled: 21.33843994140625
+combined: 9.023089371822273
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.319161417346352
+energyscore: 1471.8681640625
+energyscore scaled: 22.997940063476562
+combined: 10.67877864613021
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.289002432299945
+energyscore: 1441.98486328125
+energyscore scaled: 22.53101348876953
+combined: 10.242011056469586
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.085256064740282
+energyscore: 1538.928466796875
+energyscore scaled: 24.045757293701172
+combined: 11.96050122896089
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.316003981131542
+energyscore: 1419.125732421875
+energyscore scaled: 22.173839569091797
+combined: 9.857835587960254
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.094151386449013
+energyscore: 1500.40380859375
+energyscore scaled: 23.443809509277344
+combined: 11.34965812282833
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.275896934558352
+energyscore: 1495.685791015625
+energyscore scaled: 23.37009048461914
+combined: 11.094193550060789
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.291316055202714
+energyscore: 1502.61572265625
+energyscore scaled: 23.478370666503906
+combined: 11.187054611301193
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.209053118493264
+energyscore: 1531.035400390625
+energyscore scaled: 23.922428131103516
+combined: 11.713375012610252
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.270224927616697
+energyscore: 1480.870849609375
+energyscore scaled: 23.138607025146484
+combined: 10.868382097529787
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.287325860307327
+energyscore: 1561.046875
+energyscore scaled: 24.391357421875
+combined: 12.104031561567673
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.312686954617678
+energyscore: 1508.216796875
+energyscore scaled: 23.565887451171875
+combined: 11.253200496554197
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.352699625491908
+energyscore: 1376.35498046875
+energyscore scaled: 21.50554656982422
+combined: 9.15284694433231
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.161885307031145
+energyscore: 1482.06494140625
+energyscore scaled: 23.157264709472656
+combined: 10.995379402441511
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.306858307838095
+energyscore: 1479.8372802734375
+energyscore scaled: 23.12245750427246
+combined: 10.815599196434366
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.199183335832654
+energyscore: 1466.5499267578125
+energyscore scaled: 22.91484260559082
+combined: 10.715659269758167
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.245681261909674
+energyscore: 1496.355224609375
+energyscore scaled: 23.380550384521484
+combined: 11.13486912261181
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.221376698580087
+energyscore: 1592.1334228515625
+energyscore scaled: 24.877084732055664
+combined: 12.655708033475577
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.196644691682081
+energyscore: 1511.932373046875
+energyscore scaled: 23.623943328857422
+combined: 11.42729863717534
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.322207785487706
+energyscore: 1399.8955078125
+energyscore scaled: 21.873367309570312
+combined: 9.551159524082607
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.1023544101858
+energyscore: 1386.7581787109375
+energyscore scaled: 21.6680965423584
+combined: 9.565742132172598
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.185567300890725
+energyscore: 1551.697509765625
+energyscore scaled: 24.24527359008789
+combined: 12.059706289197166
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.043202632901004
+energyscore: 1429.40283203125
+energyscore scaled: 22.33441925048828
+combined: 10.291216617587278
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.279971812450423
+energyscore: 1493.090087890625
+energyscore scaled: 23.329532623291016
+combined: 11.049560810840592
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.433297278616097
+energyscore: 1421.02197265625
+energyscore scaled: 22.203468322753906
+combined: 9.77017104413781
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.379542597785083
+energyscore: 1509.0123291015625
+energyscore scaled: 23.578317642211914
+combined: 11.198775044426831
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.456021815919561
+energyscore: 1428.723876953125
+energyscore scaled: 22.323810577392578
+combined: 9.867788761473017
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.45063084809125
+energyscore: 1489.2767333984375
+energyscore scaled: 23.269948959350586
+combined: 10.819318111259335
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.384504521309834
+energyscore: 1475.169921875
+energyscore scaled: 23.049530029296875
+combined: 10.66502550798704
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.45866617447852
+energyscore: 1392.452392578125
+energyscore scaled: 21.757068634033203
+combined: 9.298402459554683
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.44391060407038
+energyscore: 1454.749267578125
+energyscore scaled: 22.730457305908203
+combined: 10.286546701837823
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.45758132387018
+energyscore: 1399.56591796875
+energyscore scaled: 21.86821746826172
+combined: 9.410636144391539
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.42102383458459
+energyscore: 1492.3095703125
+energyscore scaled: 23.317337036132812
+combined: 10.896313201548223
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.436641330375865
+energyscore: 1455.538818359375
+energyscore scaled: 22.742794036865234
+combined: 10.30615270648937
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.417399830465843
+energyscore: 1482.9271240234375
+energyscore scaled: 23.17073631286621
+combined: 10.753336482400368
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.41432171132771
+energyscore: 1396.09716796875
+energyscore scaled: 21.81401824951172
+combined: 9.399696538184008
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.492900741557634
+energyscore: 1342.363525390625
+energyscore scaled: 20.974430084228516
+combined: 8.481529342670882
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.47531552445172
+energyscore: 1441.264892578125
+energyscore scaled: 22.519763946533203
+combined: 10.044448422081484
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.458449135655503
+energyscore: 1348.84912109375
+energyscore scaled: 21.075767517089844
+combined: 8.617318381434341
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.408563690293168
+energyscore: 1462.432861328125
+energyscore scaled: 22.850513458251953
+combined: 10.441949767958786
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.5188394268006
+energyscore: 1387.8291015625
+energyscore scaled: 21.684829711914062
+combined: 9.165990285113462
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.489212181870469
+energyscore: 1437.366455078125
+energyscore scaled: 22.458850860595703
+combined: 9.969638678725234
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.549962327075406
+energyscore: 1386.092529296875
+energyscore scaled: 21.657695770263672
+combined: 9.107733443188266
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.503047064532183
+energyscore: 1434.964599609375
+energyscore scaled: 22.421321868896484
+combined: 9.918274804364302
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.467960977144973
+energyscore: 1488.3895263671875
+energyscore scaled: 23.256086349487305
+combined: 10.788125372342332
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.55677474760862
+energyscore: 1381.466064453125
+energyscore scaled: 21.585407257080078
+combined: 9.028632509471459
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.487220165350568
+energyscore: 1433.3914794921875
+energyscore scaled: 22.39674186706543
+combined: 9.909521701714862
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.571819502055643
+energyscore: 1394.8226318359375
+energyscore scaled: 21.794103622436523
+combined: 9.22228412038088
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.487537991874317
+energyscore: 1358.427001953125
+energyscore scaled: 21.225421905517578
+combined: 8.73788391364326
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.593199300971625
+energyscore: 1395.6627197265625
+energyscore scaled: 21.80722999572754
+combined: 9.214030694755914
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.493302387420712
+energyscore: 1432.685302734375
+energyscore scaled: 22.38570785522461
+combined: 9.892405467803897
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.555393035909507
+energyscore: 1522.3193359375
+energyscore scaled: 23.786239624023438
+combined: 11.23084658811393
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.578732073845954
+energyscore: 1388.944091796875
+energyscore scaled: 21.702251434326172
+combined: 9.123519360480218
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.513982371780916
+energyscore: 1451.6695556640625
+energyscore scaled: 22.682336807250977
+combined: 10.16835443547006
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.527571292635912
+energyscore: 1420.91357421875
+energyscore scaled: 22.20177459716797
+combined: 9.674203304532057
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.52731171718213
+energyscore: 1409.47607421875
+energyscore scaled: 22.02306365966797
+combined: 9.495751942485839
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.454559670007068
+energyscore: 1374.8349609375
+energyscore scaled: 21.481796264648438
+combined: 9.02723659464137
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.46930578453015
+energyscore: 1384.7310791015625
+energyscore scaled: 21.636423110961914
+combined: 9.167117326431764
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.506191153448405
+energyscore: 1267.8712158203125
+energyscore scaled: 19.810487747192383
+combined: 7.304296593743977
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.483080951824533
+energyscore: 1363.74951171875
+energyscore scaled: 21.30858612060547
+combined: 8.825505168780936
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.390327686743715
+energyscore: 1417.929931640625
+energyscore scaled: 22.155155181884766
+combined: 9.76482749514105
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.43700728109094
+energyscore: 1442.544677734375
+energyscore scaled: 22.53976058959961
+combined: 10.10275330850867
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.484560538026738
+energyscore: 1387.0966796875
+energyscore scaled: 21.673385620117188
+combined: 9.18882508209045
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.390626838555123
+energyscore: 1417.611328125
+energyscore scaled: 22.150177001953125
+combined: 9.759550163398002
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.42501382208483
+energyscore: 1478.33740234375
+energyscore scaled: 23.099021911621094
+combined: 10.674008089536263
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.45668352369996
+energyscore: 1390.1904296875
+energyscore scaled: 21.721725463867188
+combined: 9.265041940167228
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.536654947246515
+energyscore: 1277.5924072265625
+energyscore scaled: 19.96238136291504
+combined: 7.4257264156685245
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.415898548748405
+energyscore: 1281.9810791015625
+energyscore scaled: 20.030954360961914
+combined: 7.615055812213509
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.405976223304418
+energyscore: 1421.42578125
+energyscore scaled: 22.20977783203125
+combined: 9.803801608726832
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.477442611729122
+energyscore: 1354.12060546875
+energyscore scaled: 21.15813446044922
+combined: 8.680691848720096
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.576567157749732
+energyscore: 1412.629638671875
+energyscore scaled: 22.072338104248047
+combined: 9.495770946498315
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.41203287875611
+energyscore: 1348.09228515625
+energyscore scaled: 21.063941955566406
+combined: 8.651909076810297
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.429044686058404
+energyscore: 1410.896240234375
+energyscore scaled: 22.04525375366211
+combined: 9.616209067603705
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.42763814064055
+energyscore: 1489.724365234375
+energyscore scaled: 23.27694320678711
+combined: 10.84930506614656
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.383076915948436
+energyscore: 1347.2822265625
+energyscore scaled: 21.051284790039062
+combined: 8.668207874090626
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.409785060445872
+energyscore: 1563.24951171875
+energyscore scaled: 24.42577362060547
+combined: 12.015988560159597
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.572619085484213
+energyscore: 1324.223388671875
+energyscore scaled: 20.690990447998047
+combined: 8.118371362513834
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.395061776362033
+energyscore: 1411.2509765625
+energyscore scaled: 22.050796508789062
+combined: 9.65573473242703
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.439751459782803
+energyscore: 1418.1441650390625
+energyscore scaled: 22.15850257873535
+combined: 9.718751118952548
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.523755804499745
+energyscore: 1256.8797607421875
+energyscore scaled: 19.63874626159668
+combined: 7.114990457096935
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.417106738992697
+energyscore: 1418.544921875
+energyscore scaled: 22.164764404296875
+combined: 9.747657665304178
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.534104201563341
+energyscore: 1404.881591796875
+energyscore scaled: 21.951274871826172
+combined: 9.41717067026283
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.452756274799107
+energyscore: 1323.463134765625
+energyscore scaled: 20.67911148071289
+combined: 8.226355205913784
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.451595873877869
+energyscore: 1491.765625
+energyscore scaled: 23.308837890625
+combined: 10.857242016747131
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.450490197656428
+energyscore: 1342.697265625
+energyscore scaled: 20.979644775390625
+combined: 8.529154577734197
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.481799370011057
+energyscore: 1264.6387939453125
+energyscore scaled: 19.759981155395508
+combined: 7.278181785384451
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.463328088226199
+energyscore: 1260.8460693359375
+energyscore scaled: 19.700719833374023
+combined: 7.237391745147825
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.418504107514318
+energyscore: 1445.1650390625
+energyscore scaled: 22.580703735351562
+combined: 10.162199627837245
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.629002913800573
+energyscore: 1237.4573974609375
+energyscore scaled: 19.33527183532715
+combined: 6.706268921526576
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.58569392769984
+energyscore: 1457.7037353515625
+energyscore scaled: 22.776620864868164
+combined: 10.190926937168324
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.577015357348996
+energyscore: 1435.4432373046875
+energyscore scaled: 22.428800582885742
+combined: 9.851785225536746
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.643853254810873
+energyscore: 1342.459228515625
+energyscore scaled: 20.97592544555664
+combined: 8.332072190745768
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.560786013655992
+energyscore: 1448.6619873046875
+energyscore scaled: 22.635343551635742
+combined: 10.07455753797975
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.553654783337517
+energyscore: 1504.64208984375
+energyscore scaled: 23.510032653808594
+combined: 10.956377870471076
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.572951498791308
+energyscore: 1465.6964111328125
+energyscore scaled: 22.901506423950195
+combined: 10.328554925158887
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.552686860073985
+energyscore: 1458.612060546875
+energyscore scaled: 22.790813446044922
+combined: 10.238126585970937
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.634867766873434
+energyscore: 1254.474609375
+energyscore scaled: 19.601165771484375
+combined: 6.966298004610941
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.660743151652825
+energyscore: 1286.03662109375
+energyscore scaled: 20.094322204589844
+combined: 7.433579052937018
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.560606821093854
+energyscore: 1456.5321044921875
+energyscore scaled: 22.75831413269043
+combined: 10.197707311596576
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.576854604310352
+energyscore: 1404.742919921875
+energyscore scaled: 21.949108123779297
+combined: 9.372253519468945
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.613299900766899
+energyscore: 1402.505126953125
+energyscore scaled: 21.914142608642578
+combined: 9.30084270787568
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.563387738885034
+energyscore: 1395.5330810546875
+energyscore scaled: 21.805204391479492
+combined: 9.241816652594459
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.60417901492968
+energyscore: 1400.20751953125
+energyscore scaled: 21.87824249267578
+combined: 9.2740634777461
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.601982927021671
+energyscore: 1271.94140625
+energyscore scaled: 19.87408447265625
+combined: 7.272101545634579
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.746564097201095
+energyscore: 1516.298583984375
+energyscore scaled: 23.69216537475586
+combined: 10.945601277554765
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.800869468564098
+energyscore: 1456.044921875
+energyscore scaled: 22.750701904296875
+combined: 9.949832435732777
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.767418873148145
+energyscore: 1423.918212890625
+energyscore scaled: 22.248722076416016
+combined: 9.48130320326787
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.842380793795002
+energyscore: 1390.9466552734375
+energyscore scaled: 21.73354148864746
+combined: 8.89116069485246
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.789837175276405
+energyscore: 1314.009765625
+energyscore scaled: 20.531402587890625
+combined: 7.74156541261422
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.816259225352681
+energyscore: 1358.695068359375
+energyscore scaled: 21.229610443115234
+combined: 8.413351217762553
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.777105254824605
+energyscore: 1465.486572265625
+energyscore scaled: 22.89822769165039
+combined: 10.121122436825786
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.87257292192995
+energyscore: 1387.848388671875
+energyscore scaled: 21.685131072998047
+combined: 8.812558151068098
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.751603751264094
+energyscore: 1485.306640625
+energyscore scaled: 23.207916259765625
+combined: 10.456312508501531
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.8118161656406
+energyscore: 1424.3681640625
+energyscore scaled: 22.255752563476562
+combined: 9.443936397835962
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.7773894855235
+energyscore: 1382.8533935546875
+energyscore scaled: 21.607084274291992
+combined: 8.829694788768492
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.811273659838449
+energyscore: 1387.076171875
+energyscore scaled: 21.673065185546875
+combined: 8.861791525708426
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.771595562845588
+energyscore: 1479.75732421875
+energyscore scaled: 23.12120819091797
+combined: 10.34961262807238
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.766761276760207
+energyscore: 1461.2998046875
+energyscore scaled: 22.832809448242188
+combined: 10.066048171481981
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.728368323813328
+energyscore: 1409.005615234375
+energyscore scaled: 22.01571273803711
+combined: 9.287344414223782
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.750047407278522
+energyscore: 1521.9830322265625
+energyscore scaled: 23.78098487854004
+combined: 11.030937471261517
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.945113462267443
+energyscore: 1387.52587890625
+energyscore scaled: 21.680091857910156
+combined: 8.734978395642713
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.915325132495257
+energyscore: 1420.974853515625
+energyscore scaled: 22.20273208618164
+combined: 9.287406953686384
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.93562266790698
+energyscore: 1360.80029296875
+energyscore scaled: 21.26250457763672
+combined: 8.326881909729739
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989471009911021
+energyscore: 1306.399169921875
+energyscore scaled: 20.412487030029297
+combined: 7.4230160201182755
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.850161281358377
+energyscore: 1385.578857421875
+energyscore scaled: 21.649669647216797
+combined: 8.79950836585842
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.908149302425983
+energyscore: 1459.48779296875
+energyscore scaled: 22.80449676513672
+combined: 9.896347462710736
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.87100551318454
+energyscore: 1462.602783203125
+energyscore scaled: 22.853168487548828
+combined: 9.982162974364288
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.882126592246092
+energyscore: 1470.1932373046875
+energyscore scaled: 22.971769332885742
+combined: 10.08964274063965
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.880325953421794
+energyscore: 1400.8509521484375
+energyscore scaled: 21.888296127319336
+combined: 9.007970173897542
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.916080472728224
+energyscore: 1422.0400390625
+energyscore scaled: 22.219375610351562
+combined: 9.303295137623339
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.887912803000084
+energyscore: 1490.675537109375
+energyscore scaled: 23.291805267333984
+combined: 10.4038924643339
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.843493232918242
+energyscore: 1499.2286376953125
+energyscore scaled: 23.425447463989258
+combined: 10.581954231071016
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.96960697928297
+energyscore: 1292.2613525390625
+energyscore scaled: 20.19158363342285
+combined: 7.2219766541398815
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.002154007591834
+energyscore: 1388.1651611328125
+energyscore scaled: 21.690080642700195
+combined: 8.687926635108361
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.893251152642291
+energyscore: 1464.5986328125
+energyscore scaled: 22.884353637695312
+combined: 9.991102485053021
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.902530528134768
+energyscore: 1314.20458984375
+energyscore scaled: 20.534446716308594
+combined: 7.631916188173825
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.966217005447238
+energyscore: 1410.95361328125
+energyscore scaled: 22.04615020751953
+combined: 9.079933202072294
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.984396355484378
+energyscore: 1395.802978515625
+energyscore scaled: 21.80942153930664
+combined: 8.825025183822262
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.955820598159415
+energyscore: 1436.7247314453125
+energyscore scaled: 22.448823928833008
+combined: 9.493003330673593
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.017642211597215
+energyscore: 1434.62353515625
+energyscore scaled: 22.415992736816406
+combined: 9.398350525219191
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.9629169875249
+energyscore: 1414.618408203125
+energyscore scaled: 22.103412628173828
+combined: 9.140495640648927
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.04120332593724
+energyscore: 1385.69384765625
+energyscore scaled: 21.651466369628906
+combined: 8.610263043691667
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.955438179800687
+energyscore: 1454.1341552734375
+energyscore scaled: 22.72084617614746
+combined: 9.765407996346774
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.86810316423747
+energyscore: 1437.030029296875
+energyscore scaled: 22.453594207763672
+combined: 9.585491043526202
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.005162565808883
+energyscore: 1465.219970703125
+energyscore scaled: 22.894062042236328
+combined: 9.888899476427445
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.895024300250636
+energyscore: 1559.8900146484375
+energyscore scaled: 24.373281478881836
+combined: 11.4782571786312
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.869198590821464
+energyscore: 1423.2255859375
+energyscore scaled: 22.237899780273438
+combined: 9.368701189451974
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.986891166439259
+energyscore: 1284.8359375
+energyscore scaled: 20.0755615234375
+combined: 7.088670356998241
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.013021336201442
+energyscore: 1411.117431640625
+energyscore scaled: 22.048709869384766
+combined: 9.035688533183324
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.934212894484226
+energyscore: 1368.7490234375
+energyscore scaled: 21.386703491210938
+combined: 8.452490596726712
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.958811956688994
+energyscore: 1396.10791015625
+energyscore scaled: 21.814186096191406
+combined: 8.855374139502413
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.963642083839513
+energyscore: 1308.82763671875
+energyscore scaled: 20.45043182373047
+combined: 7.4867897398909555
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.004122447721496
+energyscore: 1450.75341796875
+energyscore scaled: 22.66802215576172
+combined: 9.663899708040223
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.964994159599678
+energyscore: 1448.2445068359375
+energyscore scaled: 22.628820419311523
+combined: 9.663826259711845
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.954854937154833
+energyscore: 1506.352294921875
+energyscore scaled: 23.536754608154297
+combined: 10.581899670999464
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.001877550710496
+energyscore: 1410.9903564453125
+energyscore scaled: 22.046724319458008
+combined: 9.044846768747512
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.9595971659928
+energyscore: 1400.447998046875
+energyscore scaled: 21.881999969482422
+combined: 8.922402803489621
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.881200388789125
+energyscore: 1508.39453125
+energyscore scaled: 23.56866455078125
+combined: 10.687464161992125
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989327869866376
+energyscore: 1297.7501220703125
+energyscore scaled: 20.277345657348633
+combined: 7.288017787482257
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.026925919978721
+energyscore: 1385.4720458984375
+energyscore scaled: 21.648000717163086
+combined: 8.621074797184365
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.954237818428467
+energyscore: 1407.3050537109375
+energyscore scaled: 21.9891414642334
+combined: 9.034903645804931
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.951258463011586
+energyscore: 1505.506103515625
+energyscore scaled: 23.52353286743164
+combined: 10.572274404420055
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.93384501957078
+energyscore: 1468.532958984375
+energyscore scaled: 22.94582748413086
+combined: 10.011982464560079
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.890456589972786
+energyscore: 1532.689453125
+energyscore scaled: 23.948272705078125
+combined: 11.05781611510534
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.878781595186066
+energyscore: 1437.044677734375
+energyscore scaled: 22.45382308959961
+combined: 9.575041494413544
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.960913316149224
+energyscore: 1449.6480712890625
+energyscore scaled: 22.6507511138916
+combined: 9.689837797742378
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.018513514019453
+energyscore: 1387.5648193359375
+energyscore scaled: 21.680700302124023
+combined: 8.66218678810457
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.966729031817417
+energyscore: 1478.400146484375
+energyscore scaled: 23.10000228881836
+combined: 10.133273257000942
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.006700479451487
+energyscore: 1409.5511474609375
+energyscore scaled: 22.02423667907715
+combined: 9.017536199625662
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.0342913129106
+energyscore: 1353.4775390625
+energyscore scaled: 21.148086547851562
+combined: 8.113795234940962
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.0261802890333
+energyscore: 1421.99462890625
+energyscore scaled: 22.218666076660156
+combined: 9.192485787626856
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.978858347515404
+energyscore: 1460.034912109375
+energyscore scaled: 22.813045501708984
+combined: 9.83418715419358
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989769135617282
+energyscore: 1402.82470703125
+energyscore scaled: 21.91913604736328
+combined: 8.929366911746
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.942649821090338
+energyscore: 1309.1868896484375
+energyscore scaled: 20.456045150756836
+combined: 7.513395329666498
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.126641100640215
+energyscore: 1344.65625
+energyscore scaled: 21.01025390625
+combined: 7.8836128056097845
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.949472938262474
+energyscore: 1398.40478515625
+energyscore scaled: 21.850074768066406
+combined: 8.900601829803932
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.927362397749114
+energyscore: 1470.2613525390625
+energyscore scaled: 22.97283363342285
+combined: 10.045471235673737
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.96127210198842
+energyscore: 1490.17578125
+energyscore scaled: 23.28399658203125
+combined: 10.32272448004283
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.939061779647568
+energyscore: 1537.912353515625
+energyscore scaled: 24.02988052368164
+combined: 11.090818744034072
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.988241629466046
+energyscore: 1425.51025390625
+energyscore scaled: 22.273597717285156
+combined: 9.28535608781911
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.00933578449313
+energyscore: 1436.96728515625
+energyscore scaled: 22.452613830566406
+combined: 9.443278046073276
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.94086316578678
+energyscore: 1444.945556640625
+energyscore scaled: 22.577274322509766
+combined: 9.636411156722986
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.987210366067611
+energyscore: 1476.8349609375
+energyscore scaled: 23.075546264648438
+combined: 10.088335898580826
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.893265659441216
+energyscore: 1448.86767578125
+energyscore scaled: 22.63855743408203
+combined: 9.745291774640815
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.020674063140426
+energyscore: 1417.111083984375
+energyscore scaled: 22.14236068725586
+combined: 9.121686624115434
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.029512194682653
+energyscore: 1319.189453125
+energyscore scaled: 20.612335205078125
+combined: 7.582823010395472
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.998527413640158
+energyscore: 1406.8021240234375
+energyscore scaled: 21.98128318786621
+combined: 8.982755774226053
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.974240155924162
+energyscore: 1459.4781494140625
+energyscore scaled: 22.804346084594727
+combined: 9.830105928670564
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.023013131996176
+energyscore: 1385.1531982421875
+energyscore scaled: 21.64301872253418
+combined: 8.620005590538003
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.1360361235485
+energyscore: 1294.3448486328125
+energyscore scaled: 20.224138259887695
+combined: 7.088102136339195
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.999307071683528
+energyscore: 1463.56689453125
+energyscore scaled: 22.86823272705078
+combined: 9.868925655367253
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.986802664807659
+energyscore: 1509.408935546875
+energyscore scaled: 23.584514617919922
+combined: 10.597711953112263
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.968322709782447
+energyscore: 1403.07373046875
+energyscore scaled: 21.92302703857422
+combined: 8.954704328791772
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.0305489305882
+energyscore: 1436.747314453125
+energyscore scaled: 22.449176788330078
+combined: 9.418627857741878
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.992565379136243
+energyscore: 1504.57666015625
+energyscore scaled: 23.509010314941406
+combined: 10.516444935805163
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.98667140384776
+energyscore: 1506.64013671875
+energyscore scaled: 23.54125213623047
+combined: 10.554580732382709
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.072417620270308
+energyscore: 1399.888916015625
+energyscore scaled: 21.87326431274414
+combined: 8.800846692473833
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.062464599590012
+energyscore: 1468.72216796875
+energyscore scaled: 22.94878387451172
+combined: 9.886319274921707
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.028406134039354
+energyscore: 1369.422119140625
+energyscore scaled: 21.397220611572266
+combined: 8.368814477532911
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.977019377720987
+energyscore: 1485.79296875
+energyscore scaled: 23.21551513671875
+combined: 10.238495758997763
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.020595601827578
+energyscore: 1430.906005859375
+energyscore scaled: 22.357906341552734
+combined: 9.337310739725156
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.021152391816962
+energyscore: 1464.728271484375
+energyscore scaled: 22.88637924194336
+combined: 9.865226850126398
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.0202501812347
+energyscore: 1411.157470703125
+energyscore scaled: 22.049335479736328
+combined: 9.029085298501629
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.02468291592534
+energyscore: 1406.056640625
+energyscore scaled: 21.969635009765625
+combined: 8.944952093840286
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.98425863928728
+energyscore: 1467.255126953125
+energyscore scaled: 22.925861358642578
+combined: 9.941602719355298
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.966972288357471
+energyscore: 1501.006103515625
+energyscore scaled: 23.45322036743164
+combined: 10.48624807907417
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.959714051038704
+energyscore: 1500.380859375
+energyscore scaled: 23.443450927734375
+combined: 10.483736876695671
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.041903605370182
+energyscore: 1289.3841552734375
+energyscore scaled: 20.14662742614746
+combined: 7.104723820777279
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.009971815178194
+energyscore: 1420.505859375
+energyscore scaled: 22.195404052734375
+combined: 9.185432237556181
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.976064891986871
+energyscore: 1498.82958984375
+energyscore scaled: 23.419212341308594
+combined: 10.443147449321723
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.996139572650684
+energyscore: 1383.7452392578125
+energyscore scaled: 21.62101936340332
+combined: 8.624879790752637
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.061541020366828
+energyscore: 1413.9478759765625
+energyscore scaled: 22.09293556213379
+combined: 9.03139454176696
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.047822357089819
+energyscore: 1309.709716796875
+energyscore scaled: 20.464214324951172
+combined: 7.416391967861353
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.059039128223098
+energyscore: 1414.8341064453125
+energyscore scaled: 22.106782913208008
+combined: 9.04774378498491
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.050586355441656
+energyscore: 1390.7520751953125
+energyscore scaled: 21.730501174926758
+combined: 8.679914819485102
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.044333059231672
+energyscore: 1427.3682861328125
+energyscore scaled: 22.302629470825195
+combined: 9.258296411593523
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.057068028210395
+energyscore: 1413.834716796875
+energyscore scaled: 22.091167449951172
+combined: 9.034099421740777
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.007414081323716
+energyscore: 1374.9183349609375
+energyscore scaled: 21.48309898376465
+combined: 8.475684902440932
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.97530392530983
+energyscore: 1440.4139404296875
+energyscore scaled: 22.506467819213867
+combined: 9.531163893904036
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.036948033332145
+energyscore: 1352.5108642578125
+energyscore scaled: 21.13298225402832
+combined: 8.096034220696176
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.990763091592548
+energyscore: 1409.1087646484375
+energyscore scaled: 22.017324447631836
+combined: 9.026561356039288
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.009886114436403
+energyscore: 1451.111572265625
+energyscore scaled: 22.67361831665039
+combined: 9.663732202213987
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.992547217256625
+energyscore: 1398.16650390625
+energyscore scaled: 21.846351623535156
+combined: 8.853804406278531
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.987544838490878
+energyscore: 1412.533447265625
+energyscore scaled: 22.07083511352539
+combined: 9.083290275034512
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.967734232581003
+energyscore: 1469.731689453125
+energyscore scaled: 22.964557647705078
+combined: 9.996823415124075
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.995383486183599
+energyscore: 1488.0697021484375
+energyscore scaled: 23.251089096069336
+combined: 10.255705609885737
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.956576241970671
+energyscore: 1441.390380859375
+energyscore scaled: 22.521724700927734
+combined: 9.565148458957063
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.975483398204565
+energyscore: 1373.247314453125
+energyscore scaled: 21.456989288330078
+combined: 8.481505890125513
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.032750542901612
+energyscore: 1282.3046875
+energyscore scaled: 20.0360107421875
+combined: 7.003260199285888
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.029131179575876
+energyscore: 1357.0908203125
+energyscore scaled: 21.204544067382812
+combined: 8.175412887806937
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.97121879438647
+energyscore: 1460.1536865234375
+energyscore scaled: 22.81490135192871
+combined: 9.843682557542241
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.071045875944714
+energyscore: 1358.0325927734375
+energyscore scaled: 21.21925926208496
+combined: 8.148213386140247
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.92360697271471
+energyscore: 1443.90966796875
+energyscore scaled: 22.56108856201172
+combined: 9.637481589297009
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.920270520954197
+energyscore: 1421.4482421875
+energyscore scaled: 22.210128784179688
+combined: 9.28985826322549
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.950364983247935
+energyscore: 1429.102783203125
+energyscore scaled: 22.329730987548828
+combined: 9.379366004300893
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.892153017870815
+energyscore: 1438.43701171875
+energyscore scaled: 22.47557830810547
+combined: 9.583425290234654
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.949725493476674
+energyscore: 1365.6024169921875
+energyscore scaled: 21.33753776550293
+combined: 8.387812272026256
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.924870759212103
+energyscore: 1424.892578125
+energyscore scaled: 22.263946533203125
+combined: 9.339075773991022
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.97538145709338
+energyscore: 1351.616943359375
+energyscore scaled: 21.119014739990234
+combined: 8.143633282896854
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.935779449294973
+energyscore: 1386.484619140625
+energyscore scaled: 21.663822174072266
+combined: 8.728042724777293
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.97373794598386
+energyscore: 1435.31787109375
+energyscore scaled: 22.426841735839844
+combined: 9.453103789855984
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.9441490453459
+energyscore: 1296.22021484375
+energyscore scaled: 20.253440856933594
+combined: 7.309291811587693
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.900677403304115
+energyscore: 1475.0076904296875
+energyscore scaled: 23.046995162963867
+combined: 10.146317759659752
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.938236286527363
+energyscore: 1256.76025390625
+energyscore scaled: 19.636878967285156
+combined: 6.698642680757793
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.927379523895361
+energyscore: 1354.0048828125
+energyscore scaled: 21.156326293945312
+combined: 8.228946770049951
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.024026298542974
+energyscore: 1282.246337890625
+energyscore scaled: 20.035099029541016
+combined: 7.011072730998041
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.049519332475272
+energyscore: 1276.7564697265625
+energyscore scaled: 19.94931983947754
+combined: 6.899800507002267
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.914220070814023
+energyscore: 1471.4732666015625
+energyscore scaled: 22.991769790649414
+combined: 10.07754971983539
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.860292718202517
+energyscore: 1440.775146484375
+energyscore scaled: 22.51211166381836
+combined: 9.651818945615842
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.859583707025543
+energyscore: 1439.427490234375
+energyscore scaled: 22.49105453491211
+combined: 9.631470827886567
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.85360345249019
+energyscore: 1394.449951171875
+energyscore scaled: 21.788280487060547
+combined: 8.934677034570356
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.8783567631399
+energyscore: 1415.4798583984375
+energyscore scaled: 22.116872787475586
+combined: 9.238516024335686
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.876328218659026
+energyscore: 1439.720703125
+energyscore scaled: 22.495635986328125
+combined: 9.619307767669099
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.884966460016365
+energyscore: 1410.328369140625
+energyscore scaled: 22.036380767822266
+combined: 9.1514143078059
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.881654525098321
+energyscore: 1449.583740234375
+energyscore scaled: 22.64974594116211
+combined: 9.768091416063788
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.886369554966844
+energyscore: 1433.395751953125
+energyscore scaled: 22.396808624267578
+combined: 9.510439069300734
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.891948595911845
+energyscore: 1428.703125
+energyscore scaled: 22.323486328125
+combined: 9.431537732213155
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.953139170609116
+energyscore: 1302.208251953125
+energyscore scaled: 20.347003936767578
+combined: 7.393864766158462
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.852018562626192
+energyscore: 1401.797119140625
+energyscore scaled: 21.903079986572266
+combined: 9.051061423946074
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.86973518397254
+energyscore: 1438.94873046875
+energyscore scaled: 22.48357391357422
+combined: 9.613838729601678
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.870342729401205
+energyscore: 1433.454345703125
+energyscore scaled: 22.397724151611328
+combined: 9.527381422210123
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.905351891156709
+energyscore: 1384.638427734375
+energyscore scaled: 21.63497543334961
+combined: 8.7296235421929
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.84090122441255
+energyscore: 1472.709228515625
+energyscore scaled: 23.01108169555664
+combined: 10.170180471144091
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.940672448793269
+energyscore: 1371.51904296875
+energyscore scaled: 21.42998504638672
+combined: 8.48931259759345
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.865126069640393
+energyscore: 1397.697509765625
+energyscore scaled: 21.83902359008789
+combined: 8.973897520447498
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.777035343244272
+energyscore: 1462.093017578125
+energyscore scaled: 22.845203399658203
+combined: 10.068168056413931
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.87336064951676
+energyscore: 1262.407470703125
+energyscore scaled: 19.725116729736328
+combined: 6.851756080219568
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.919591816510962
+energyscore: 1417.240966796875
+energyscore scaled: 22.144390106201172
+combined: 9.22479828969021
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.8716651631989
+energyscore: 1365.90478515625
+energyscore scaled: 21.342262268066406
+combined: 8.470597104867506
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.809552030579091
+energyscore: 1451.857177734375
+energyscore scaled: 22.68526840209961
+combined: 9.875716371520518
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.876358372277016
+energyscore: 1319.4986572265625
+energyscore scaled: 20.61716651916504
+combined: 7.740808146888023
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.927583397152022
+energyscore: 1394.142333984375
+energyscore scaled: 21.78347396850586
+combined: 8.855890571353838
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.79461869469834
+energyscore: 1476.7952880859375
+energyscore scaled: 23.074926376342773
+combined: 10.280307681644434
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.833586875399183
+energyscore: 1439.0579833984375
+energyscore scaled: 22.485280990600586
+combined: 9.651694115201403
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.848839706795925
+energyscore: 1487.8514404296875
+energyscore scaled: 23.247678756713867
+combined: 10.398839049917942
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.908506803124759
+energyscore: 1372.0814208984375
+energyscore scaled: 21.438772201538086
+combined: 8.530265398413327
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.88114699285671
+energyscore: 1371.615234375
+energyscore scaled: 21.431488037109375
+combined: 8.550341044252665
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.862129808172137
+energyscore: 1356.8106689453125
+energyscore scaled: 21.200166702270508
+combined: 8.338036894098371
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.988943579317882
+energyscore: 1372.3643798828125
+energyscore scaled: 21.443193435668945
+combined: 8.454249856351064
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.838310724934638
+energyscore: 1314.9805908203125
+energyscore scaled: 20.546571731567383
+combined: 7.708261006632744
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.908972148889369
+energyscore: 1294.926513671875
+energyscore scaled: 20.233226776123047
+combined: 7.324254627233678
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.904691479804011
+energyscore: 1411.189453125
+energyscore scaled: 22.049835205078125
+combined: 9.145143725274114
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.892864881291633
+energyscore: 1381.9830322265625
+energyscore scaled: 21.59348487854004
+combined: 8.700619997248406
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.853654596084741
+energyscore: 1516.03564453125
+energyscore scaled: 23.68805694580078
+combined: 10.83440234971604
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.835966219308023
+energyscore: 1438.66162109375
+energyscore scaled: 22.479087829589844
+combined: 9.64312161028182
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.839044938831837
+energyscore: 1480.9832763671875
+energyscore scaled: 23.140363693237305
+combined: 10.301318754405468
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.878512193097643
+energyscore: 1271.991455078125
+energyscore scaled: 19.874866485595703
+combined: 6.99635429249806
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.833686781809305
+energyscore: 1443.608154296875
+energyscore scaled: 22.556377410888672
+combined: 9.722690629079366
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.894673987534983
+energyscore: 1337.430419921875
+energyscore scaled: 20.897350311279297
+combined: 8.002676323744314
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.930091240324664
+energyscore: 1416.341064453125
+energyscore scaled: 22.130329132080078
+combined: 9.200237891755414
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.865025046431738
+energyscore: 1422.45361328125
+energyscore scaled: 22.22583770751953
+combined: 9.360812661087794
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.885899495226223
+energyscore: 1403.6513671875
+energyscore scaled: 21.932052612304688
+combined: 9.046153117078465
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989151840540547
+energyscore: 1284.6292724609375
+energyscore scaled: 20.07233238220215
+combined: 7.083180541661601
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.8311266770865
+energyscore: 1452.935791015625
+energyscore scaled: 22.70212173461914
+combined: 9.87099505753264
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.782076460718832
+energyscore: 1448.092041015625
+energyscore scaled: 22.62643814086914
+combined: 9.844361680150309
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.88469405425512
+energyscore: 1404.99365234375
+energyscore scaled: 21.953025817871094
+combined: 9.068331763615975
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.904253457837251
+energyscore: 1474.6722412109375
+energyscore scaled: 23.0417537689209
+combined: 10.137500311083647
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.876413324848997
+energyscore: 1301.7061767578125
+energyscore scaled: 20.33915901184082
+combined: 7.462745686991823
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.034014735714631
+energyscore: 1269.45068359375
+energyscore scaled: 19.835166931152344
+combined: 6.801152195437712
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.860337752978433
+energyscore: 1467.7042236328125
+energyscore scaled: 22.932878494262695
+combined: 10.072540741284262
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.801323240470069
+energyscore: 1394.5966796875
+energyscore scaled: 21.790573120117188
+combined: 8.989249879647119
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.916820930487539
+energyscore: 1359.915283203125
+energyscore scaled: 21.248676300048828
+combined: 8.33185536956129
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.914201524831828
+energyscore: 1301.1434326171875
+energyscore scaled: 20.330366134643555
+combined: 7.416164609811727
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.98175222404455
+energyscore: 1341.353759765625
+energyscore scaled: 20.95865249633789
+combined: 7.97690027229334
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.754997896788337
+energyscore: 1378.26220703125
+energyscore scaled: 21.53534698486328
+combined: 8.780349088074944
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.946169115493937
+energyscore: 1459.726318359375
+energyscore scaled: 22.808223724365234
+combined: 9.862054608871297
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.932545453617964
+energyscore: 1328.82666015625
+energyscore scaled: 20.762916564941406
+combined: 7.830371111323442
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.862568672656426
+energyscore: 1351.3409423828125
+energyscore scaled: 21.114702224731445
+combined: 8.25213355207502
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.83761852821073
+energyscore: 1435.1331787109375
+energyscore scaled: 22.4239559173584
+combined: 9.586337389147669
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.854301385645881
+energyscore: 1468.668701171875
+energyscore scaled: 22.947948455810547
+combined: 10.093647070164666
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.96417614423723
+energyscore: 1319.7086181640625
+energyscore scaled: 20.620447158813477
+combined: 7.656271014576246
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.923796292268271
+energyscore: 1445.84130859375
+energyscore scaled: 22.591270446777344
+combined: 9.667474154509073
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.000295894110925
+energyscore: 1365.862548828125
+energyscore scaled: 21.341602325439453
+combined: 8.341306431328528
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.76823772195979
+energyscore: 1456.396240234375
+energyscore scaled: 22.75619125366211
+combined: 9.987953531702319
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.934743030880886
+energyscore: 1313.1934814453125
+energyscore scaled: 20.518648147583008
+combined: 7.583905116702121
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.803232336436718
+energyscore: 1404.5889892578125
+energyscore scaled: 21.94670295715332
+combined: 9.143470620716602
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.936835247367469
+energyscore: 1416.720458984375
+energyscore scaled: 22.13625717163086
+combined: 9.19942192426339
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.933421799442836
+energyscore: 1416.96826171875
+energyscore scaled: 22.14012908935547
+combined: 9.206707289912632
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.939489029016038
+energyscore: 1416.25146484375
+energyscore scaled: 22.128929138183594
+combined: 9.189440109167556
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.731509002737786
+energyscore: 1444.829833984375
+energyscore scaled: 22.57546615600586
+combined: 9.843957153268073
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.754865814906898
+energyscore: 1423.713134765625
+energyscore scaled: 22.24551773071289
+combined: 9.490651915805993
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.968908531308085
+energyscore: 1410.9249267578125
+energyscore scaled: 22.04570198059082
+combined: 9.076793449282736
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.732862083314606
+energyscore: 1450.0107421875
+energyscore scaled: 22.656417846679688
+combined: 9.923555763365082
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.898683679428153
+energyscore: 1435.9908447265625
+energyscore scaled: 22.43735694885254
+combined: 9.538673269424386
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.77757167351653
+energyscore: 1462.979248046875
+energyscore scaled: 22.859050750732422
+combined: 10.081479077215892
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.747068452870765
+energyscore: 1403.770263671875
+energyscore scaled: 21.933910369873047
+combined: 9.186841917002281
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.967405282769619
+energyscore: 1235.87353515625
+energyscore scaled: 19.310523986816406
+combined: 6.343118704046788
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.934621799316172
+energyscore: 1388.0576171875
+energyscore scaled: 21.688400268554688
+combined: 8.753778469238515
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.920558493573223
+energyscore: 1327.444580078125
+energyscore scaled: 20.741321563720703
+combined: 7.82076307014748
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.934389222114483
+energyscore: 1389.3033447265625
+energyscore scaled: 21.70786476135254
+combined: 8.773475539238056
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.000328175833918
+energyscore: 1338.290771484375
+energyscore scaled: 20.91079330444336
+combined: 7.910465128609442
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.930803920461296
+energyscore: 1339.3345947265625
+energyscore scaled: 20.92710304260254
+combined: 7.996299122141243
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.044479354218096
+energyscore: 1355.392822265625
+energyscore scaled: 21.17801284790039
+combined: 8.133533493682295
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.744982953329696
+energyscore: 1410.367919921875
+energyscore scaled: 22.036998748779297
+combined: 9.2920157954496
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.823415094239895
+energyscore: 1422.6484375
+energyscore scaled: 22.2288818359375
+combined: 9.405466741697605
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.99092815529902
+energyscore: 1342.6658935546875
+energyscore scaled: 20.979154586791992
+combined: 7.988226431492972
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.055003760484137
+energyscore: 1226.27294921875
+energyscore scaled: 19.16051483154297
+combined: 6.105511071058832
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.857781202147724
+energyscore: 1376.196044921875
+energyscore scaled: 21.503063201904297
+combined: 8.645281999756573
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.980440666168926
+energyscore: 1369.491943359375
+energyscore scaled: 21.398311614990234
+combined: 8.417870948821308
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.04472232812602
+energyscore: 1340.7052001953125
+energyscore scaled: 20.948518753051758
+combined: 7.903796424925737
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.779686057462982
+energyscore: 1328.5953369140625
+energyscore scaled: 20.759302139282227
+combined: 7.979616081819245
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.826713924681762
+energyscore: 1576.3026123046875
+energyscore scaled: 24.629728317260742
+combined: 11.80301439257898
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.851583298098214
+energyscore: 1440.274169921875
+energyscore scaled: 22.504283905029297
+combined: 9.652700606931083
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.791318701155955
+energyscore: 1391.932373046875
+energyscore scaled: 21.748943328857422
+combined: 8.957624627701467
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.005572676285233
+energyscore: 1424.8961181640625
+energyscore scaled: 22.264001846313477
+combined: 9.258429170028244
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.783008143965379
+energyscore: 1439.7225341796875
+energyscore scaled: 22.495664596557617
+combined: 9.712656452592238
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.80459131393012
+energyscore: 1507.1248779296875
+energyscore scaled: 23.548826217651367
+combined: 10.744234903721248
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.755657423724882
+energyscore: 1347.531982421875
+energyscore scaled: 21.055187225341797
+combined: 8.299529801616915
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.973816749287225
+energyscore: 1405.063232421875
+energyscore scaled: 21.954113006591797
+combined: 8.980296257304571
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.997340042611013
+energyscore: 1411.8863525390625
+energyscore scaled: 22.06072425842285
+combined: 9.063384215811839
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.922235667647845
+energyscore: 1430.978759765625
+energyscore scaled: 22.35904312133789
+combined: 9.436807453690045
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.78595134248494
+energyscore: 1397.303955078125
+energyscore scaled: 21.832874298095703
+combined: 9.046922955610762
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.996048869879498
+energyscore: 1360.90283203125
+energyscore scaled: 21.26410675048828
+combined: 8.268057880608783
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.831139664629257
+energyscore: 1359.5999755859375
+energyscore scaled: 21.243749618530273
+combined: 8.412609953901017
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.007702908901162
+energyscore: 1347.872314453125
+energyscore scaled: 21.060504913330078
+combined: 8.052802004428916
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.021873000007144
+energyscore: 1413.049560546875
+energyscore scaled: 22.078899383544922
+combined: 9.057026383537778
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.835922149740297
+energyscore: 1286.2508544921875
+energyscore scaled: 20.09766960144043
+combined: 7.261747451700133
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.94985251027819
+energyscore: 1436.540771484375
+energyscore scaled: 22.44594955444336
+combined: 9.49609704416517
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.047433135163539
+energyscore: 1250.116943359375
+energyscore scaled: 19.533077239990234
+combined: 6.4856441048266955
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.953555216840138
+energyscore: 1463.433349609375
+energyscore scaled: 22.866146087646484
+combined: 9.912590870806346
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.821899062403617
+energyscore: 1303.1412353515625
+energyscore scaled: 20.361581802368164
+combined: 7.539682739964547
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.731353494203795
+energyscore: 1447.670166015625
+energyscore scaled: 22.61984634399414
+combined: 9.888492849790346
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.027415657339471
+energyscore: 1351.744384765625
+energyscore scaled: 21.12100601196289
+combined: 8.09359035462342
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.971440366408391
+energyscore: 1417.8695068359375
+energyscore scaled: 22.154211044311523
+combined: 9.182770677903132
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.959940360463719
+energyscore: 1373.9508056640625
+energyscore scaled: 21.467981338500977
+combined: 8.508040978037258
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.839340146010453
+energyscore: 1473.934814453125
+energyscore scaled: 23.030231475830078
+combined: 10.190891329819625
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.787861721400699
+energyscore: 1348.33349609375
+energyscore scaled: 21.067710876464844
+combined: 8.279849155064145
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.890688002117399
+energyscore: 1385.819091796875
+energyscore scaled: 21.653423309326172
+combined: 8.762735307208773
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.784431168227714
+energyscore: 1434.335693359375
+energyscore scaled: 22.411495208740234
+combined: 9.62706404051252
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989046176498022
+energyscore: 1377.82421875
+energyscore scaled: 21.52850341796875
+combined: 8.539457241470728
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.981317157491608
+energyscore: 1407.511474609375
+energyscore scaled: 21.992366790771484
+combined: 9.011049633279876
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.895945070062115
+energyscore: 1296.191650390625
+energyscore scaled: 20.252994537353516
+combined: 7.3570494672914
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.984895129428251
+energyscore: 1285.996826171875
+energyscore scaled: 20.093700408935547
+combined: 7.108805279507296
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.818262273773637
+energyscore: 1395.9444580078125
+energyscore scaled: 21.81163215637207
+combined: 8.993369882598433
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.045200445571968
+energyscore: 1315.9228515625
+energyscore scaled: 20.561294555664062
+combined: 7.516094110092094
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.726874794705704
+energyscore: 1423.79248046875
+energyscore scaled: 22.24675750732422
+combined: 9.519882712618514
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.978802358919623
+energyscore: 1308.839599609375
+energyscore scaled: 20.450618743896484
+combined: 7.4718163849768615
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.956770265864362
+energyscore: 1385.4173583984375
+energyscore scaled: 21.647146224975586
+combined: 8.690375959111224
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.95096730147657
+energyscore: 1352.4833984375
+energyscore scaled: 21.132553100585938
+combined: 8.181585799109367
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.79274579527409
+energyscore: 1459.848876953125
+energyscore scaled: 22.810138702392578
+combined: 10.017392907118488
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.898863718898276
+energyscore: 1441.088623046875
+energyscore scaled: 22.517009735107422
+combined: 9.618146016209145
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.941056883169615
+energyscore: 1370.219482421875
+energyscore scaled: 21.409679412841797
+combined: 8.468622529672182
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.836218297750554
+energyscore: 1437.055419921875
+energyscore scaled: 22.453990936279297
+combined: 9.617772638528743
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.873795006877065
+energyscore: 1306.422607421875
+energyscore scaled: 20.412853240966797
+combined: 7.539058234089731
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.793273639697269
+energyscore: 1417.703125
+energyscore scaled: 22.151611328125
+combined: 9.358337688427731
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.914226723784548
+energyscore: 1329.8895263671875
+energyscore scaled: 20.779523849487305
+combined: 7.865297125702757
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.054137010379378
+energyscore: 1348.29052734375
+energyscore scaled: 21.067039489746094
+combined: 8.012902479366716
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.822306608764814
+energyscore: 1379.6851806640625
+energyscore scaled: 21.557580947875977
+combined: 8.735274339111163
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.832776130903342
+energyscore: 1539.261962890625
+energyscore scaled: 24.050968170166016
+combined: 11.218192039262673
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.922027593315535
+energyscore: 1441.8865966796875
+energyscore scaled: 22.529478073120117
+combined: 9.607450479804582
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.76037847483342
+energyscore: 1375.002197265625
+energyscore scaled: 21.48440933227539
+combined: 8.72403085744197
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.947588872522205
+energyscore: 1402.968017578125
+energyscore scaled: 21.921375274658203
+combined: 8.973786402135998
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.797538509904257
+energyscore: 1523.922607421875
+energyscore scaled: 23.811290740966797
+combined: 11.01375223106254
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.77927909856138
+energyscore: 1501.589111328125
+energyscore scaled: 23.462329864501953
+combined: 10.683050765940573
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.946487350612621
+energyscore: 1311.4005126953125
+energyscore scaled: 20.490633010864258
+combined: 7.544145660251637
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.72051556136962
+energyscore: 1479.37353515625
+energyscore scaled: 23.115211486816406
+combined: 10.394695925446786
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.78529755065127
+energyscore: 1317.9404296875
+energyscore scaled: 20.592819213867188
+combined: 7.807521663215917
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.949807797656137
+energyscore: 1336.24951171875
+energyscore scaled: 20.87889862060547
+combined: 7.929090822949332
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.064503515659872
+energyscore: 1285.0030517578125
+energyscore scaled: 20.07817268371582
+combined: 7.013669168055948
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.943900416203322
+energyscore: 1431.5166015625
+energyscore scaled: 22.367446899414062
+combined: 9.42354648321074
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.93821178494806
+energyscore: 1432.260986328125
+energyscore scaled: 22.379077911376953
+combined: 9.440866126428894
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.880575461506236
+energyscore: 1445.783447265625
+energyscore scaled: 22.59036636352539
+combined: 9.709790902019154
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.00058581367676
+energyscore: 1271.812255859375
+energyscore scaled: 19.872066497802734
+combined: 6.871480684125974
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.877709194096841
+energyscore: 1466.553466796875
+energyscore scaled: 22.914897918701172
+combined: 10.03718872460433
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.867433928878
+energyscore: 1354.492431640625
+energyscore scaled: 21.163944244384766
+combined: 8.296510315506765
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.907980323563091
+energyscore: 1435.48193359375
+energyscore scaled: 22.429405212402344
+combined: 9.521424888839253
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.75275011562627
+energyscore: 1409.7279052734375
+energyscore scaled: 22.02699851989746
+combined: 9.27424840427119
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.928502990835968
+energyscore: 1420.9049072265625
+energyscore scaled: 22.20163917541504
+combined: 9.273136184579071
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.791500307813465
+energyscore: 1451.633544921875
+energyscore scaled: 22.681774139404297
+combined: 9.890273831590832
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.856939520675912
+energyscore: 1362.756591796875
+energyscore scaled: 21.293071746826172
+combined: 8.43613222615026
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.973025576586748
+energyscore: 1327.698974609375
+energyscore scaled: 20.745296478271484
+combined: 7.772270901684736
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.995698470694144
+energyscore: 1383.9586181640625
+energyscore scaled: 21.624353408813477
+combined: 8.628654938119332
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.897187670870249
+energyscore: 1256.3037109375
+energyscore scaled: 19.629745483398438
+combined: 6.732557812528189
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.053028146975876
+energyscore: 1251.438232421875
+energyscore scaled: 19.553722381591797
+combined: 6.500694234615921
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.96805231542421
+energyscore: 1304.786376953125
+energyscore scaled: 20.387287139892578
+combined: 7.419234824468369
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.789751652884586
+energyscore: 1371.33251953125
+energyscore scaled: 21.42707061767578
+combined: 8.637318964791195
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.83171006059133
+energyscore: 1429.351318359375
+energyscore scaled: 22.333614349365234
+combined: 9.501904288773904
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.003656681304946
+energyscore: 1340.489501953125
+energyscore scaled: 20.945148468017578
+combined: 7.941491786712632
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.95373378458676
+energyscore: 1466.092529296875
+energyscore scaled: 22.907695770263672
+combined: 9.953961985676912
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.843019450100753
+energyscore: 1533.8203125
+energyscore scaled: 23.9659423828125
+combined: 11.122922932711747
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.040411043091655
+energyscore: 1289.65234375
+energyscore scaled: 20.15081787109375
+combined: 7.110406828002095
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.844920871677479
+energyscore: 1481.135009765625
+energyscore scaled: 23.14273452758789
+combined: 10.297813655910412
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.962669702936614
+energyscore: 1367.5850830078125
+energyscore scaled: 21.36851692199707
+combined: 8.405847219060457
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.940875119754853
+energyscore: 1408.460205078125
+energyscore scaled: 22.007190704345703
+combined: 9.06631558459085
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.007523318523619
+energyscore: 1390.87646484375
+energyscore scaled: 21.732444763183594
+combined: 8.724921444659975
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.935550499485615
+energyscore: 1362.9488525390625
+energyscore scaled: 21.29607582092285
+combined: 8.360525321437237
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.863245119998899
+energyscore: 1411.5191650390625
+energyscore scaled: 22.05498695373535
+combined: 9.191741833736453
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.989137867571907
+energyscore: 1366.861328125
+energyscore scaled: 21.357208251953125
+combined: 8.368070384381218
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.914716027275011
+energyscore: 1294.541015625
+energyscore scaled: 20.227203369140625
+combined: 7.312487341865614
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.867963016562685
+energyscore: 1464.283203125
+energyscore scaled: 22.879425048828125
+combined: 10.01146203226544
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.94790530252191
+energyscore: 1335.3487548828125
+energyscore scaled: 20.864824295043945
+combined: 7.916918992522035
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.988184730043509
+energyscore: 1326.6064453125
+energyscore scaled: 20.728225708007812
+combined: 7.740040977964304
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.855439193643704
+energyscore: 1370.2757568359375
+energyscore scaled: 21.410558700561523
+combined: 8.55511950691782
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.864483248071979
+energyscore: 1384.916015625
+energyscore scaled: 21.639312744140625
+combined: 8.774829496068646
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.977884668714694
+energyscore: 1344.8233642578125
+energyscore scaled: 21.01286506652832
+combined: 8.034980397813626
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.82613055260984
+energyscore: 1505.594482421875
+energyscore scaled: 23.524913787841797
+combined: 10.698783235231957
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.947456596410222
+energyscore: 1312.2733154296875
+energyscore scaled: 20.504270553588867
+combined: 7.556813957178646
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.956533741973532
+energyscore: 1414.9571533203125
+energyscore scaled: 22.108705520629883
+combined: 9.152171778656351
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.857442181587905
+energyscore: 1536.446044921875
+energyscore scaled: 24.006969451904297
+combined: 11.149527270316392
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.893668962071313
+energyscore: 1399.896484375
+energyscore scaled: 21.873382568359375
+combined: 8.979713606288062
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.846411209976704
+energyscore: 1377.6373291015625
+energyscore scaled: 21.525583267211914
+combined: 8.67917205723521
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.943273912557311
+energyscore: 1436.6280517578125
+energyscore scaled: 22.44731330871582
+combined: 9.50403939615851
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.84540682992883
+energyscore: 1390.12158203125
+energyscore scaled: 21.72064971923828
+combined: 8.875242889309451
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.021841726727033
+energyscore: 1371.9859619140625
+energyscore scaled: 21.437280654907227
+combined: 8.415438928180194
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.036845751184902
+energyscore: 1267.923095703125
+energyscore scaled: 19.811298370361328
+combined: 6.774452619176426
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.986507172126384
+energyscore: 1419.543701171875
+energyscore scaled: 22.180370330810547
+combined: 9.193863158684163
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.96188744540626
+energyscore: 1442.28857421875
+energyscore scaled: 22.53575897216797
+combined: 9.573871526761708
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.00459963615032
+energyscore: 1333.69775390625
+energyscore scaled: 20.839027404785156
+combined: 7.834427768634836
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.849948421545543
+energyscore: 1347.51220703125
+energyscore scaled: 21.05487823486328
+combined: 8.204929813317738
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.055085860337737
+energyscore: 1337.38818359375
+energyscore scaled: 20.896690368652344
+combined: 7.841604508314607
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.861372747853622
+energyscore: 1532.091064453125
+energyscore scaled: 23.938922882080078
+combined: 11.077550134226456
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.003606793302755
+energyscore: 1357.67431640625
+energyscore scaled: 21.213661193847656
+combined: 8.210054400544902
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.970829185158514
+energyscore: 1384.69873046875
+energyscore scaled: 21.63591766357422
+combined: 8.665088478415704
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.985111518101064
+energyscore: 1389.3135986328125
+energyscore scaled: 21.708024978637695
+combined: 8.722913460536631
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.949988127473937
+energyscore: 1383.6580810546875
+energyscore scaled: 21.619657516479492
+combined: 8.669669389005556
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.045043733484668
+energyscore: 1293.081787109375
+energyscore scaled: 20.204402923583984
+combined: 7.159359190099316
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.88635708135595
+energyscore: 1337.6990966796875
+energyscore scaled: 20.901548385620117
+combined: 8.015191304264167
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.979230296451098
+energyscore: 1407.9046630859375
+energyscore scaled: 21.998510360717773
+combined: 9.019280064266676
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.992562384041005
+energyscore: 1415.4693603515625
+energyscore scaled: 22.116708755493164
+combined: 9.12414637145216
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.00861501051505
+energyscore: 1430.8153076171875
+energyscore scaled: 22.356489181518555
+combined: 9.347874171003504
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.03590651395971
+energyscore: 1373.62451171875
+energyscore scaled: 21.46288299560547
+combined: 8.42697648164576
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.9420286613595
+energyscore: 1293.52978515625
+energyscore scaled: 20.211402893066406
+combined: 7.269374231706907
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.874815749607677
+energyscore: 1364.715087890625
+energyscore scaled: 21.323673248291016
+combined: 8.448857498683338
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.8779811089907
+energyscore: 1459.242431640625
+energyscore scaled: 22.800662994384766
+combined: 9.922681885394066
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.99024884114348
+energyscore: 1430.423828125
+energyscore scaled: 22.350372314453125
+combined: 9.360123473309645
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.995533879111182
+energyscore: 1319.09326171875
+energyscore scaled: 20.61083221435547
+combined: 7.615298335244287
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.076282322377013
+energyscore: 1300.42236328125
+energyscore scaled: 20.31909942626953
+combined: 7.242817103892518
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.937533216614739
+energyscore: 1328.986328125
+energyscore scaled: 20.765411376953125
+combined: 7.827878160338386
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.973389738223728
+energyscore: 1409.9881591796875
+energyscore scaled: 22.031064987182617
+combined: 9.057675248958889
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.95222932983058
+energyscore: 1348.498046875
+energyscore scaled: 21.070281982421875
+combined: 8.118052652591295
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.818742646990948
+energyscore: 1473.0595703125
+energyscore scaled: 23.016555786132812
+combined: 10.197813139141864
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.993362924268924
+energyscore: 1469.476806640625
+energyscore scaled: 22.960575103759766
+combined: 9.967212179490842
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.911073580260254
+energyscore: 1497.677978515625
+energyscore scaled: 23.40121841430664
+combined: 10.490144834046387
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.962299534692084
+energyscore: 1444.0491943359375
+energyscore scaled: 22.563268661499023
+combined: 9.60096912680694
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.999429161327255
+energyscore: 1411.784423828125
+energyscore scaled: 22.059131622314453
+combined: 9.059702460987198
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.868355932422007
+energyscore: 1461.9139404296875
+energyscore scaled: 22.842405319213867
+combined: 9.97404938679186
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -13.003446681823439
+energyscore: 1437.684814453125
+energyscore scaled: 22.463825225830078
+combined: 9.46037854400664
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+signaturescore: -12.879245680582635
+energyscore: 1507.66064453125
+energyscore scaled: 23.55719757080078
+combined: 10.677951890218147
+torch.Size([3, 5, 32, 64, 1])
+torch.Size([1, 5, 32, 64, 1])
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1499592 ON gpu016 CANCELLED AT 2025-06-15T11:52:46 ***
+slurmstepd: error: *** STEP 1499592.0 ON gpu016 CANCELLED AT 2025-06-15T11:52:46 ***
