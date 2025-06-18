@@ -1,0 +1,37 @@
+Test SR network for lorenz96 model using SignatureKernel scoring rule
+Calibration metrics:
+x0: Cal. error 0.2720, RMSE 0.3662, R2 -2.0724, NCRPS 1.2958, RQE 8.9756
+x1: Cal. error 0.3350, RMSE 0.2402, R2 -0.3744, NCRPS 1.0937, RQE 9.5886
+x2: Cal. error 0.2720, RMSE 0.3143, R2 -1.2842, NCRPS 1.1342, RQE 9.8185
+x3: Cal. error 0.3030, RMSE 0.3569, R2 -1.9632, NCRPS 1.3461, RQE 9.6724
+x4: Cal. error 0.2920, RMSE 0.3269, R2 -1.4595, NCRPS 1.2002, RQE 8.7788
+x5: Cal. error 0.2560, RMSE 0.3004, R2 -0.9702, NCRPS 0.9777, RQE 9.3828
+x6: Cal. error 0.2930, RMSE 0.2331, R2 -0.3551, NCRPS 0.9241, RQE 9.8075
+x7: Cal. error 0.3240, RMSE 0.3111, R2 -1.1306, NCRPS 1.2443, RQE 8.5909
+x8: Cal. error 0.3470, RMSE 0.3340, R2 -1.5543, NCRPS 1.5417, RQE 8.4074
+x9: Cal. error 0.3690, RMSE 0.2586, R2 -0.5972, NCRPS 1.4009, RQE 9.2404
+x10: Cal. error 0.3410, RMSE 0.3230, R2 -1.4098, NCRPS 1.3833, RQE 9.5577
+x11: Cal. error 0.3700, RMSE 0.3428, R2 -1.7340, NCRPS 1.6363, RQE 9.3397
+x12: Cal. error 0.3520, RMSE 0.3310, R2 -1.5205, NCRPS 1.4776, RQE 8.2072
+x13: Cal. error 0.3180, RMSE 0.2985, R2 -0.9452, NCRPS 1.1725, RQE 8.9564
+x14: Cal. error 0.3550, RMSE 0.2354, R2 -0.3805, NCRPS 1.1468, RQE 9.3669
+x15: Cal. error 0.3750, RMSE 0.2975, R2 -0.9498, NCRPS 1.5517, RQE 7.9974
+
+Average values: Cal. error 0.3234, RMSE 0.3044, R2 -1.1688, NCRPS 1.2829, RQE 9.1055
+
+Standard deviation: Cal. error 0.0370, RMSE 0.0409, R2 0.5348, NCRPS 0.2014, RQE 0.5541
+
+
+Average values: Cal. error, RMSE, R2 
+
+		 0.3234 $ \pm$ 0.0370 & 0.3044  $ \pm$ 0.0409 &  -1.1688 $ \pm$ 0.5348 \\ 
+
+		 0.3234  & 0.3044  &  -1.1688  \\ 
+
+NaN/Inf check for metric arrays:
+Cal error: has_nan=False, has_inf=False, shape=(16,)
+RMSE: has_nan=False, has_inf=False, shape=(16,)
+R2: has_nan=False, has_inf=False, shape=(16,)
+NCRPS: has_nan=False, has_inf=False, shape=(16,)
+RQE: has_nan=False, has_inf=False, shape=(16,)
+

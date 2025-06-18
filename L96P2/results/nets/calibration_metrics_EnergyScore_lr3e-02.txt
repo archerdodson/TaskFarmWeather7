@@ -1,0 +1,35 @@
+Calibration metrics:
+x0: Cal. error 0.0530, RMSE 0.0459, R2 0.9517, NCRPS 0.1268, RQE 11.7580
+x1: Cal. error 0.1200, RMSE 0.0515, R2 0.9368, NCRPS 0.1466, RQE 11.4468
+x2: Cal. error 0.0660, RMSE 0.0472, R2 0.9485, NCRPS 0.1333, RQE 11.2805
+x3: Cal. error 0.0820, RMSE 0.0436, R2 0.9557, NCRPS 0.1242, RQE 11.5841
+x4: Cal. error 0.0980, RMSE 0.0516, R2 0.9388, NCRPS 0.1413, RQE 11.4262
+x5: Cal. error 0.0830, RMSE 0.0548, R2 0.9344, NCRPS 0.1491, RQE 11.2463
+x6: Cal. error 0.0820, RMSE 0.0437, R2 0.9525, NCRPS 0.1285, RQE 11.5369
+x7: Cal. error 0.0460, RMSE 0.0458, R2 0.9538, NCRPS 0.1255, RQE 11.4414
+x8: Cal. error 0.0470, RMSE 0.0730, R2 0.8779, NCRPS 0.1910, RQE 11.7800
+x9: Cal. error 0.0710, RMSE 0.0742, R2 0.8686, NCRPS 0.1990, RQE 11.4650
+x10: Cal. error 0.0520, RMSE 0.0751, R2 0.8696, NCRPS 0.1970, RQE 11.2961
+x11: Cal. error 0.0560, RMSE 0.0757, R2 0.8666, NCRPS 0.1970, RQE 11.5699
+x12: Cal. error 0.0930, RMSE 0.0857, R2 0.8311, NCRPS 0.2162, RQE 11.4034
+x13: Cal. error 0.0480, RMSE 0.0828, R2 0.8502, NCRPS 0.2096, RQE 11.2401
+x14: Cal. error 0.0600, RMSE 0.0696, R2 0.8795, NCRPS 0.1962, RQE 11.5308
+x15: Cal. error 0.0530, RMSE 0.0742, R2 0.8788, NCRPS 0.1900, RQE 11.4702
+
+Average values: Cal. error 0.0694, RMSE 0.0621, R2 0.9059, NCRPS 0.1670, RQE 11.4672
+
+Standard deviation: Cal. error 0.0210, RMSE 0.0148, R2 0.0425, NCRPS 0.0337, RQE 0.1555
+
+
+Average values: Cal. error, RMSE, R2 
+
+		 0.0694 $ \pm$ 0.0210 & 0.0621  $ \pm$ 0.0148 &  0.9059 $ \pm$ 0.0425 \\ 
+
+		 0.0694  & 0.0621  &  0.9059  \\ 
+
+NaN/Inf check for metric arrays:
+Cal error: has_nan=False, has_inf=False, shape=(16,)
+RMSE: has_nan=False, has_inf=False, shape=(16,)
+R2: has_nan=False, has_inf=False, shape=(16,)
+NCRPS: has_nan=False, has_inf=False, shape=(16,)
+RQE: has_nan=False, has_inf=False, shape=(16,)
