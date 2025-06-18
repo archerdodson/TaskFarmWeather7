@@ -1,0 +1,264 @@
+/scrtp/avon/eb/software/PyTorch/2.1.2-foss-2023a-CUDA-12.1.1/lib/python3.11/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Train SR network for lorenz96 model with lr 0.03 using SignatureKernel scoring rule
+  0%|          | 0/1000 [00:00<?, ?it/s]/gpfs/home/stats/stubxk/ArcherDissEnv3/lib/python3.11/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 9 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+/gpfs/home/stats/stubxk/ArcherDissEnv3/lib/python3.11/site-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 3 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+  0%|          | 1/1000 [03:18<54:56:46, 198.00s/it]  0%|          | 2/1000 [06:32<54:14:38, 195.67s/it]  0%|          | 3/1000 [09:46<54:00:31, 195.02s/it]  0%|          | 4/1000 [13:00<53:50:31, 194.61s/it]  0%|          | 5/1000 [16:14<53:43:57, 194.41s/it]  1%|          | 6/1000 [19:28<53:38:21, 194.27s/it]  1%|          | 7/1000 [22:42<53:34:02, 194.20s/it]  1%|          | 8/1000 [25:56<53:29:42, 194.14s/it]  1%|          | 9/1000 [29:10<53:25:44, 194.09s/it]  1%|          | 10/1000 [32:24<53:21:53, 194.05s/it]  1%|          | 11/1000 [35:38<53:18:13, 194.03s/it]  1%|          | 12/1000 [38:52<53:15:56, 194.09s/it]  1%|▏         | 13/1000 [42:06<53:12:38, 194.08s/it]  1%|▏         | 14/1000 [45:20<53:09:25, 194.08s/it]  2%|▏         | 15/1000 [48:34<53:05:58, 194.07s/it]  2%|▏         | 16/1000 [51:48<53:02:47, 194.07s/it]  2%|▏         | 17/1000 [55:02<52:56:49, 193.91s/it]  2%|▏         | 18/1000 [58:13<52:41:44, 193.18s/it]  2%|▏         | 19/1000 [1:01:24<52:25:56, 192.41s/it]  2%|▏         | 20/1000 [1:04:33<52:06:00, 191.39s/it]  2%|▏         | 21/1000 [1:07:40<51:42:46, 190.16s/it]  2%|▏         | 22/1000 [1:10:48<51:25:35, 189.30s/it]  2%|▏         | 23/1000 [1:13:55<51:12:23, 188.68s/it]  2%|▏         | 24/1000 [1:17:02<51:03:10, 188.31s/it]  2%|▎         | 25/1000 [1:20:10<50:55:08, 188.01s/it]  3%|▎         | 26/1000 [1:23:17<50:49:14, 187.84s/it]  3%|▎         | 27/1000 [1:26:26<50:51:55, 188.20s/it]  3%|▎         | 28/1000 [1:29:35<50:52:44, 188.44s/it]  3%|▎         | 29/1000 [1:32:44<50:52:25, 188.62s/it]  3%|▎         | 30/1000 [1:35:53<50:52:15, 188.80s/it]  3%|▎         | 31/1000 [1:39:02<50:50:53, 188.91s/it]  3%|▎         | 32/1000 [1:42:12<50:48:59, 188.99s/it]  3%|▎         | 33/1000 [1:45:21<50:46:07, 189.00s/it]  3%|▎         | 34/1000 [1:48:30<50:43:09, 189.02s/it]  4%|▎         | 35/1000 [1:51:39<50:40:18, 189.03s/it]  4%|▎         | 36/1000 [1:54:48<50:37:36, 189.06s/it]  4%|▎         | 37/1000 [1:57:57<50:34:02, 189.04s/it]  4%|▍         | 38/1000 [2:01:06<50:30:55, 189.04s/it]  4%|▍         | 39/1000 [2:04:15<50:27:38, 189.03s/it]  4%|▍         | 40/1000 [2:07:24<50:24:37, 189.04s/it]  4%|▍         | 41/1000 [2:10:33<50:21:08, 189.02s/it]  4%|▍         | 42/1000 [2:13:42<50:18:25, 189.04s/it]  4%|▍         | 43/1000 [2:16:51<50:14:59, 189.03s/it]  4%|▍         | 44/1000 [2:20:00<50:11:50, 189.03s/it]  4%|▍         | 45/1000 [2:23:09<50:08:24, 189.01s/it]  5%|▍         | 46/1000 [2:26:18<50:05:54, 189.05s/it]  5%|▍         | 47/1000 [2:29:27<50:02:39, 189.04s/it]  5%|▍         | 48/1000 [2:32:36<50:00:24, 189.10s/it]  5%|▍         | 49/1000 [2:35:46<49:57:05, 189.09s/it]  5%|▌         | 50/1000 [2:38:55<49:53:56, 189.09s/it]  5%|▌         | 51/1000 [2:42:04<49:50:29, 189.07s/it]  5%|▌         | 52/1000 [2:45:13<49:47:28, 189.08s/it]  5%|▌         | 53/1000 [2:48:22<49:43:55, 189.06s/it]  5%|▌         | 54/1000 [2:51:31<49:41:18, 189.09s/it]  6%|▌         | 55/1000 [2:54:40<49:38:13, 189.09s/it]  6%|▌         | 56/1000 [2:57:49<49:35:01, 189.09s/it]  6%|▌         | 57/1000 [3:00:58<49:31:36, 189.07s/it]  6%|▌         | 58/1000 [3:04:07<49:28:11, 189.06s/it]  6%|▌         | 59/1000 [3:07:16<49:24:46, 189.04s/it]  6%|▌         | 60/1000 [3:10:25<49:22:14, 189.08s/it]  6%|▌         | 61/1000 [3:13:34<49:18:38, 189.05s/it]  6%|▌         | 62/1000 [3:16:43<49:15:06, 189.03s/it]  6%|▋         | 63/1000 [3:19:52<49:11:55, 189.02s/it]  6%|▋         | 64/1000 [3:23:01<49:08:40, 189.02s/it]  6%|▋         | 65/1000 [3:26:10<49:05:25, 189.01s/it]  7%|▋         | 66/1000 [3:29:19<49:02:37, 189.03s/it]  7%|▋         | 67/1000 [3:32:28<48:59:41, 189.05s/it]  7%|▋         | 68/1000 [3:35:37<48:55:55, 189.01s/it]  7%|▋         | 69/1000 [3:38:46<48:52:48, 189.01s/it]  7%|▋         | 70/1000 [3:41:55<48:49:49, 189.02s/it]  7%|▋         | 71/1000 [3:45:04<48:46:15, 188.99s/it]  7%|▋         | 72/1000 [3:48:14<48:44:32, Epoch: 1/1000. Train set: Average loss: -0.0446
+Epoch: 1/1000. Validation set: Average loss: -2.1071
+Epoch: 2/1000. Train set: Average loss: -2.2280
+Epoch: 2/1000. Validation set: Average loss: -2.2699
+Epoch: 3/1000. Train set: Average loss: -2.2545
+Epoch: 3/1000. Validation set: Average loss: -2.2593
+Epoch: 4/1000. Train set: Average loss: -2.2660
+Epoch: 4/1000. Validation set: Average loss: -2.2690
+Epoch: 5/1000. Train set: Average loss: -2.2692
+Epoch: 5/1000. Validation set: Average loss: -2.2716
+Epoch: 6/1000. Train set: Average loss: -2.2741
+Epoch: 6/1000. Validation set: Average loss: -2.2752
+Epoch: 7/1000. Train set: Average loss: -2.2771
+Epoch: 7/1000. Validation set: Average loss: -2.2776
+Epoch: 8/1000. Train set: Average loss: -2.2771
+Epoch: 8/1000. Validation set: Average loss: -2.2746
+Epoch: 9/1000. Train set: Average loss: -2.2750
+Epoch: 9/1000. Validation set: Average loss: -2.2709
+Epoch: 10/1000. Train set: Average loss: -2.2722
+Epoch: 10/1000. Validation set: Average loss: -2.2710
+Epoch: 11/1000. Train set: Average loss: -2.2700
+Epoch: 11/1000. Validation set: Average loss: -2.2691
+Epoch: 12/1000. Train set: Average loss: -2.2712
+Epoch: 12/1000. Validation set: Average loss: -2.2731
+Epoch: 13/1000. Train set: Average loss: -2.2717
+Epoch: 13/1000. Validation set: Average loss: -2.2667
+Epoch: 14/1000. Train set: Average loss: -2.2710
+Epoch: 14/1000. Validation set: Average loss: -2.2727
+Epoch: 15/1000. Train set: Average loss: -2.2717
+Epoch: 15/1000. Validation set: Average loss: -2.2694
+Epoch: 16/1000. Train set: Average loss: -2.2676
+Epoch: 16/1000. Validation set: Average loss: -2.2691
+Epoch: 17/1000. Train set: Average loss: -2.2700
+Epoch: 17/1000. Validation set: Average loss: -2.2701
+Epoch: 18/1000. Train set: Average loss: -2.2680
+Epoch: 18/1000. Validation set: Average loss: -2.2664
+Epoch: 19/1000. Train set: Average loss: -2.2698
+Epoch: 19/1000. Validation set: Average loss: -2.2688
+Epoch: 20/1000. Train set: Average loss: -2.2686
+Epoch: 20/1000. Validation set: Average loss: -2.2627
+Epoch: 21/1000. Train set: Average loss: -2.2696
+Epoch: 21/1000. Validation set: Average loss: -2.2685
+Epoch: 22/1000. Train set: Average loss: -2.2720
+Epoch: 22/1000. Validation set: Average loss: -2.2699
+Epoch: 23/1000. Train set: Average loss: -2.2706
+Epoch: 23/1000. Validation set: Average loss: -2.2723
+Epoch: 24/1000. Train set: Average loss: -2.2711
+Epoch: 24/1000. Validation set: Average loss: -2.2687
+Epoch: 25/1000. Train set: Average loss: -2.2705
+Epoch: 25/1000. Validation set: Average loss: -2.2694
+Epoch: 26/1000. Train set: Average loss: -2.2711
+Epoch: 26/1000. Validation set: Average loss: -2.2681
+Epoch: 27/1000. Train set: Average loss: -2.2694
+Epoch: 27/1000. Validation set: Average loss: -2.2674
+Epoch: 28/1000. Train set: Average loss: -2.2695
+Epoch: 28/1000. Validation set: Average loss: -2.2710
+Epoch: 29/1000. Train set: Average loss: -2.2665
+Epoch: 29/1000. Validation set: Average loss: -2.2690
+Epoch: 30/1000. Train set: Average loss: -2.2652
+Epoch: 30/1000. Validation set: Average loss: -2.2700
+Epoch: 31/1000. Train set: Average loss: -2.2669
+Epoch: 31/1000. Validation set: Average loss: -2.2698
+Epoch: 32/1000. Train set: Average loss: -2.2679
+Epoch: 32/1000. Validation set: Average loss: -2.2645
+Epoch: 33/1000. Train set: Average loss: -2.2673
+Epoch: 33/1000. Validation set: Average loss: -2.2664
+Epoch: 34/1000. Train set: Average loss: -2.2686
+Epoch: 34/1000. Validation set: Average loss: -2.2646
+Epoch: 35/1000. Train set: Average loss: -2.2687
+Epoch: 35/1000. Validation set: Average loss: -2.2685
+Epoch: 36/1000. Train set: Average loss: -2.2679
+Epoch: 36/1000. Validation set: Average loss: -2.2692
+Epoch: 37/1000. Train set: Average loss: -2.2693
+Epoch: 37/1000. Validation set: Average loss: -2.2656
+Epoch: 38/1000. Train set: Average loss: -2.2676
+Epoch: 38/1000. Validation set: Average loss: -2.2679
+Epoch: 39/1000. Train set: Average loss: -2.2672
+Epoch: 39/1000. Validation set: Average loss: -2.2684
+Epoch: 40/1000. Train set: Average loss: -2.2678
+Epoch: 40/1000. Validation set: Average loss: -2.2667
+Epoch: 41/1000. Train set: Average loss: -2.2688
+Epoch: 41/1000. Validation set: Average loss: -2.2696
+Epoch: 42/1000. Train set: Average loss: -2.2707
+Epoch: 42/1000. Validation set: Average loss: -2.2682
+Epoch: 43/1000. Train set: Average loss: -2.2674
+Epoch: 43/1000. Validation set: Average loss: -2.2697
+Epoch: 44/1000. Train set: Average loss: -2.2683
+Epoch: 44/1000. Validation set: Average loss: -2.2702
+Epoch: 45/1000. Train set: Average loss: -2.2695
+Epoch: 45/1000. Validation set: Average loss: -2.2688
+Epoch: 46/1000. Train set: Average loss: -2.2692
+Epoch: 46/1000. Validation set: Average loss: -2.2675
+Epoch: 47/1000. Train set: Average loss: -2.2672
+Epoch: 47/1000. Validation set: Average loss: -2.2669
+Epoch: 48/1000. Train set: Average loss: -2.2682
+Epoch: 48/1000. Validation set: Average loss: -2.2679
+Epoch: 49/1000. Train set: Average loss: -2.2664
+Epoch: 49/1000. Validation set: Average loss: -2.2666
+Epoch: 50/1000. Train set: Average loss: -2.2669
+Epoch: 50/1000. Validation set: Average loss: -2.2650
+Epoch: 51/1000. Train set: Average loss: -2.2652
+Epoch: 51/1000. Validation set: Average loss: -2.2650
+Epoch: 52/1000. Train set: Average loss: -2.2676
+Epoch: 52/1000. Validation set: Average loss: -2.2659
+Epoch: 53/1000. Train set: Average loss: -2.2696
+Epoch: 53/1000. Validation set: Average loss: -2.2671
+Epoch: 54/1000. Train set: Average loss: -2.2673
+Epoch: 54/1000. Validation set: Average loss: -2.2652
+Epoch: 55/1000. Train set: Average loss: -2.2707
+Epoch: 55/1000. Validation set: Average loss: -2.2646
+Epoch: 56/1000. Train set: Average loss: -2.2691
+Epoch: 56/1000. Validation set: Average loss: -2.2684
+Epoch: 57/1000. Train set: Average loss: -2.2728
+Epoch: 57/1000. Validation set: Average loss: -2.2698
+Epoch: 58/1000. Train set: Average loss: -2.2708
+Epoch: 58/1000. Validation set: Average loss: -2.2663
+Epoch: 59/1000. Train set: Average loss: -2.2677
+Epoch: 59/1000. Validation set: Average loss: -2.2652
+Epoch: 60/1000. Train set: Average loss: -2.2640
+Epoch: 60/1000. Validation set: Average loss: -2.2631
+Epoch: 61/1000. Train set: Average loss: -2.2611
+Epoch: 61/1000. Validation set: Average loss: -2.2630
+Epoch: 62/1000. Train set: Average loss: -2.2631
+Epoch: 62/1000. Validation set: Average loss: -2.2633
+Epoch: 63/1000. Train set: Average loss: -2.2617
+Epoch: 63/1000. Validation set: Average loss: -2.2601
+Epoch: 64/1000. Train set: Average loss: -2.2584
+Epoch: 64/1000. Validation set: Average loss: -2.2601
+Epoch: 65/1000. Train set: Average loss: -2.2564
+Epoch: 65/1000. Validation set: Average loss: -2.2599
+Epoch: 66/1000. Train set: Average loss: -2.2547
+Epoch: 66/1000. Validation set: Average loss: -2.2514
+Epoch: 67/1000. Train set: Average loss: -2.2524
+Epoch: 67/1000. Validation set: Average loss: -2.2542
+Epoch: 68/1000. Train set: Average loss: -2.2520
+Epoch: 68/1000. Validation set: Average loss: -2.2536
+Epoch: 69/1000. Train set: Average loss: -2.2534
+Epoch: 69/1000. Validation set: Average loss: -2.2540
+Epoch: 70/1000. Train set: Average loss: -2.2511
+Epoch: 70/1000. Validation set: Average loss: -2.2544
+Epoch: 71/1000. Train set: Average loss: -2.2533
+Epoch: 71/1000. Validation set: Average loss: -2.2558
+Epoch: 72/1000. Train set: Average loss: -2.2554
+Epoch: 72/1000. Validation set: Average loss: -2.2555
+Epoch: 73/1000. Train set: Average loss: -2.2557
+Epoch: 73/1000. Validation set: Average loss: -2.2554
+Epoch: 74/1000. Train set: Average loss: -2.2596
+Epoch: 74/1000. Validation set: Average loss: -2.2576
+Epoch: 75/1000. Train set: Average loss: -2.2617
+Epoch: 75/1000. Validation set: Average loss: -2.2590
+Epoch: 76/1000. Train set: Average loss: -2.2542
+Epoch: 76/1000. Validation set: Average loss: -2.2603
+Epoch: 77/1000. Train set: Average loss: -2.2602
+Epoch: 77/1000. Validation set: Average loss: -2.2629
+Epoch: 78/1000. Train set: Average loss: -2.2663
+Epoch: 78/1000. Validation set: Average loss: -2.2630
+Epoch: 79/1000. Train set: Average loss: -2.2651
+Epoch: 79/1000. Validation set: Average loss: -2.2590
+Epoch: 80/1000. Train set: Average loss: -2.2620
+189.09s/it]  7%|▋         | 73/1000 [3:51:23<48:40:49, 189.05s/it]  7%|▋         | 74/1000 [3:54:32<48:37:14, 189.02s/it]  8%|▊         | 75/1000 [3:57:41<48:33:52, 189.01s/it]  8%|▊         | 76/1000 [4:00:50<48:30:31, 189.00s/it]  8%|▊         | 77/1000 [4:03:59<48:27:21, 188.99s/it]  8%|▊         | 78/1000 [4:07:08<48:25:10, 189.06s/it]  8%|▊         | 79/1000 [4:10:17<48:21:54, 189.05s/it]  8%|▊         | 80/1000 [4:13:26<48:18:41, 189.04s/it]  8%|▊         | 81/1000 [4:16:35<48:15:34, 189.05s/it]  8%|▊         | 82/1000 [4:19:44<48:12:33, 189.06s/it]  8%|▊         | 83/1000 [4:22:53<48:09:37, 189.07s/it]  8%|▊         | 84/1000 [4:26:02<48:07:17, 189.12s/it]  8%|▊         | 85/1000 [4:29:11<48:03:54, 189.11s/it]  9%|▊         | 86/1000 [4:32:20<48:00:19, 189.08s/it]  9%|▊         | 87/1000 [4:35:29<47:57:03, 189.07s/it]  9%|▉         | 88/1000 [4:38:39<47:54:05, 189.09s/it]  9%|▉         | 89/1000 [4:41:48<47:50:59, 189.09s/it]  9%|▉         | 90/1000 [4:44:57<47:48:00, 189.10s/it]  9%|▉         | 91/1000 [4:48:06<47:44:13, 189.06s/it]  9%|▉         | 92/1000 [4:51:15<47:40:49, 189.04s/it]  9%|▉         | 93/1000 [4:54:24<47:37:38, 189.04s/it]  9%|▉         | 94/1000 [4:57:33<47:34:18, 189.03s/it] 10%|▉         | 95/1000 [5:00:42<47:31:01, 189.02s/it] 10%|▉         | 96/1000 [5:03:51<47:28:35, 189.07s/it] 10%|▉         | 97/1000 [5:07:00<47:25:19, 189.06s/it] 10%|▉         | 98/1000 [5:10:09<47:21:57, 189.04s/it] 10%|▉         | 99/1000 [5:13:18<47:18:39, 189.03s/it] 10%|▉         | 99/1000 [5:16:27<48:00:04, 191.79s/it]
+Epoch: 80/1000. Validation set: Average loss: -2.2639
+Epoch: 81/1000. Train set: Average loss: -2.2573
+Epoch: 81/1000. Validation set: Average loss: -2.2622
+Epoch: 82/1000. Train set: Average loss: -2.2634
+Epoch: 82/1000. Validation set: Average loss: -2.2683
+Epoch: 83/1000. Train set: Average loss: -2.2686
+Epoch: 83/1000. Validation set: Average loss: -2.2633
+Epoch: 84/1000. Train set: Average loss: -2.2660
+Epoch: 84/1000. Validation set: Average loss: -2.2624
+Epoch: 85/1000. Train set: Average loss: -2.2648
+Epoch: 85/1000. Validation set: Average loss: -2.2656
+Epoch: 86/1000. Train set: Average loss: -2.2657
+Epoch: 86/1000. Validation set: Average loss: -2.2681
+Epoch: 87/1000. Train set: Average loss: -2.2684
+Epoch: 87/1000. Validation set: Average loss: -2.2666
+Epoch: 88/1000. Train set: Average loss: -2.2664
+Epoch: 88/1000. Validation set: Average loss: -2.2661
+Epoch: 89/1000. Train set: Average loss: -2.2655
+Epoch: 89/1000. Validation set: Average loss: -2.2620
+Epoch: 90/1000. Train set: Average loss: -2.2677
+Epoch: 90/1000. Validation set: Average loss: -2.2652
+Epoch: 91/1000. Train set: Average loss: -2.2673
+Epoch: 91/1000. Validation set: Average loss: -2.2698
+Epoch: 92/1000. Train set: Average loss: -2.2703
+Epoch: 92/1000. Validation set: Average loss: -2.2665
+Epoch: 93/1000. Train set: Average loss: -2.2665
+Epoch: 93/1000. Validation set: Average loss: -2.2671
+Epoch: 94/1000. Train set: Average loss: -2.2673
+Epoch: 94/1000. Validation set: Average loss: -2.2679
+Epoch: 95/1000. Train set: Average loss: -2.2623
+Epoch: 95/1000. Validation set: Average loss: -2.2626
+Epoch: 96/1000. Train set: Average loss: -2.2618
+Epoch: 96/1000. Validation set: Average loss: -2.2644
+Epoch: 97/1000. Train set: Average loss: -2.2648
+Epoch: 97/1000. Validation set: Average loss: -2.2601
+Epoch: 98/1000. Train set: Average loss: -2.2652
+Epoch: 98/1000. Validation set: Average loss: -2.2693
+Epoch: 99/1000. Train set: Average loss: -2.2657
+Epoch: 99/1000. Validation set: Average loss: -2.2699
+Epoch: 100/1000. Train set: Average loss: -2.2682
+Epoch: 100/1000. Validation set: Average loss: -2.2638
+yo?
+Training time: 19007.29 seconds
+Initial Window: tensor([[-6.6552,  0.5743, -2.0714,  4.9840,  8.8309, -1.0462,  4.6527, 10.7432],
+        [-1.2573,  7.1192, 11.5621,  6.1425,  4.6180,  2.1320,  6.4135,  6.0790],
+        [ 2.6308,  9.7157, 10.4960, -4.0719,  4.2621,  7.6632,  8.4280,  2.7578],
+        [ 3.5314, 11.6621, -4.1574, -0.8401, -0.3725, 13.6223,  2.9777, -2.3032],
+        [ 5.1709, 10.8603,  1.5052,  5.3575, 10.2030,  5.3154, -5.2997,  2.4698],
+        [10.5231,  9.8095, -0.6279,  6.6502,  6.5805, -5.7486,  2.8205,  3.1672],
+        [ 5.0987, -6.5853,  0.9564,  8.1044,  2.5500, -3.7802,  1.2906, 13.2256],
+        [-0.7764,  0.9630, -1.0545,  8.2193,  2.7532, -1.9499, -0.7012, 13.0293],
+        [ 4.3098, -1.4679,  3.2837,  9.0329, -0.0238, -0.2983,  0.3141, 12.5709],
+        [-3.2271,  1.6273,  3.9535, 10.1696,  0.9897,  3.0876,  6.8140, 10.1955]])
+Next 10 (9 prediction_length) steps tensor([[-3.2271,  1.6273,  3.9535, 10.1696,  0.9897,  3.0876,  6.8140, 10.1955],
+        [-2.4412,  1.4171, 11.8924,  5.5080, -2.5457,  4.1696, 10.3193, -1.5410],
+        [ 4.4459,  8.1026,  9.1760, -3.9613,  0.8670,  3.4818, 10.2734, -0.1379],
+        [ 5.9674,  8.7886, -4.9083, -0.0667,  0.8987,  9.6319,  9.1128, -0.1576],
+        [ 6.9344,  4.8333, -3.8852,  3.3546, 11.8590,  8.3064, -3.2138,  0.3050],
+        [ 8.4130,  2.1772, -2.3242,  0.2615, 13.1742, -2.2076,  0.1661, -0.2565],
+        [ 8.4880, -1.0374,  0.9322,  1.5652, 12.9802,  4.5080,  0.3643,  4.7071],
+        [ 7.4834, -0.7099,  4.0739, 10.1310,  8.0202, -4.6900,  2.4052,  7.3596],
+        [ 4.5218, -1.9389,  4.2597, 10.7186, -4.9986,  2.3751,  1.0690, 10.4754],
+        [-3.4356,  0.8486,  5.4150, 10.1238,  1.6039,  6.4489, 11.1378,  0.3445]])
+predicted output from the model tensor([[[ -985.4820,  -414.1977,   890.0554,  1489.9874,  1858.9589,
+             30.2640,  2587.0845,  1436.0936],
+         [ -888.2243,  -373.3753,   802.2632,  1342.9662,  1675.5317,
+             27.2986,  2331.8567,  1294.4020],
+         [ -571.0033,  -236.7197,   509.3477,   862.1536,  1072.1453,
+             19.4160,  1493.4296,   828.2218],
+         [ -784.5309,  -329.3129,   707.6503,  1186.0188,  1479.1798,
+             24.4140,  2058.8228,  1142.7133],
+         [ -939.5474,  -394.9196,   848.5938,  1420.5499,  1772.3282,
+             28.8632,  2466.5430,  1369.1742]],
+
+        [[ -956.6662,  -402.1026,   864.0441,  1446.4279,  1804.6129,
+             29.3855,  2511.4651,  1394.1130],
+         [ -861.0858,  -361.9843,   777.7659,  1301.9418,  1624.3490,
+             26.4712,  2260.6394,  1254.8647],
+         [ -852.5093,  -358.3699,   770.0068,  1288.9741,  1608.1630,
+             26.2080,  2238.1160,  1242.3597],
+         [ -985.0463,  -414.0157,   889.6630,  1489.3287,  1858.1375,
+             30.2504,  2585.9414,  1435.4592],
+         [-1016.8555,  -427.3687,   918.3784,  1537.4141,  1918.1307,
+             31.2201,  2669.4182,  1481.8021]],
+
+        [[ -903.7648,  -379.8979,   816.2908,  1366.4581,  1704.8409,
+             27.7727,  2372.6387,  1317.0422],
+         [-1341.8596,  -563.7990,  1211.7705,  2028.7322,  2531.1062,
+             41.1409,  3522.3357,  1955.2994],
+         [ -758.9483,  -318.1485,   683.7684,  1147.1934,  1430.3195,
+             23.8430,  1990.9712,  1104.9592],
+         [ -807.9623,  -339.4646,   729.3955,  1221.5551,  1523.8336,
+             24.9659,  2120.8513,  1177.2146],
+         [ -800.5475,  -336.2669,   722.5409,  1210.3147,  1509.7235,
+             24.7843,  2101.2468,  1166.3129]]], device='cuda:0',
+       grad_fn=<CatBackward0>) torch.Size([3, 5, 8])
+-2.267372906924396
