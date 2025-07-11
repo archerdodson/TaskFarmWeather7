@@ -37,7 +37,7 @@ weatherbench_data_folder = "../geopotential_500_5.625deg"
 weatherbench_small = False
 
 #name_postfix = '_mytrainedmodelEnergyScore' ##Change this
-name_postfix = '_mytrainedmodelSignatureKernel' ##Change this
+name_postfix = '_mytrainedmodelSignatureKernel_lr1e-03' ##Change this
 training_ensemble_size = 3  #3/10
 prediction_ensemble_size = 5 ##3/10
 prediction_length = 2  
@@ -126,7 +126,7 @@ print(string)
 print("Load weatherbench dataset...")
 dataset_train, dataset_val, dataset_test = load_weatherbench_data(weatherbench_data_folder, cuda, load_all_data_GPU,
                                                             return_test=True,
-                                                            weatherbench_small=weatherbench_small)
+                                                            weatherbench_small=weatherbench_small, predictionlength=prediction_length)
 print("Loaded")
 print("Validation set size:", len(dataset_val))
 print("Test set size:", len(dataset_test))
@@ -337,7 +337,7 @@ with torch.no_grad():
     # obtain the target and context for the specified timestring
     timestring = date + "T12:00:00.000000000"
     _, realization1 = dataset_test.select_time(timestring)
-
+date = "2018-01-21 12:00:00"
 # print('yo')
 # print(realization)
 # print('yo1')
@@ -389,9 +389,9 @@ if save_plots:
     fig.subplots_adjust(right=0.9)
     cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
     fig.colorbar(p_pred, cax=cbar_ax)
-    fig.suptitle("Z500, " + date, size=20)
+    fig.suptitle("Z500, " + date, size=20, y = 1.02)
 
-    plt.savefig(nets_folder + f"map_absolute{name_postfix}." + ("pdf" if save_pdf else "png"))
+    plt.savefig(nets_folder + f"map_absolute{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")
 
     # --- plot the differences from the realization ---
     differences = [da_predictions[i] - realization for i in range(n_predictions_for_plots)]
@@ -409,9 +409,9 @@ if save_plots:
     fig.subplots_adjust(right=0.9)
     cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
     fig.colorbar(p_pred, cax=cbar_ax)
-    fig.suptitle("Z500, predictions - realization, " + date, size=20)
+    fig.suptitle("Z500, Prediction - Realization, " + date, size=20, y=1.02)
 
-    plt.savefig(nets_folder + f"map_differences{name_postfix}." + ("pdf" if save_pdf else "png"))
+    plt.savefig(nets_folder + f"map_differences{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")
 
     if method != "regression":
         # --- plot the differences with respect to ensemble mean ---
@@ -433,9 +433,9 @@ if save_plots:
         fig.subplots_adjust(right=0.9)
         cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
         fig.colorbar(p_pred, cax=cbar_ax)
-        fig.suptitle("Z500, Centered in mean prediction, " + date, size=20)
+        fig.suptitle("Z500, Centered in mean prediction, " + date, size=20, y=1.02)
 
-        plt.savefig(nets_folder + f"map_differences_ens_mean{name_postfix}." + ("pdf" if save_pdf else "png"))
+        plt.savefig(nets_folder + f"map_differences_ens_mean{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")
 
         # --- plot the ensemble mean and std ---
 
@@ -447,6 +447,6 @@ if save_plots:
         p_pred = plot_map_ax(da_prediction_std[:, :, 0], title=f"Standard deviation",
                                 ax=axes[1], global_projection=global_projection)
 
-        fig.suptitle("Z500, Prediction mean and standard deviation, " + date, size=20)
+        fig.suptitle("Z500, Prediction mean and standard deviation, " + date, size=20, y=1.02)
 
-        plt.savefig(nets_folder + f"map_differences_mean_std{name_postfix}." + ("pdf" if save_pdf else "png"))
+        plt.savefig(nets_folder + f"map_differences_mean_std{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")

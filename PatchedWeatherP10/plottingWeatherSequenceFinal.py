@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from matplotlib.transforms import Bbox
 import cartopy.crs as ccrs
-
+import xarray as xr
 # import and set up the typeguard
 from typeguard.importhook import install_import_hook
 
@@ -37,10 +37,10 @@ weatherbench_data_folder = "../geopotential_500_5.625deg"
 weatherbench_small = False
 
 #name_postfix = '_mytrainedmodelEnergyScore' ##Change this
-name_postfix = '_mytrainedmodelSignatureKernel' ##Change this
+name_postfix = '_mytrainedmodelSignatureKernel_lr3e-04' ##Change this
 training_ensemble_size = 3  #3/10
 prediction_ensemble_size = 3 ##3/10
-prediction_length = 2  
+prediction_length = 10  
 
 weights = np.array([0.07704437, 0.23039114, 0.38151911, 0.52897285, 0.67133229,
        0.80722643, 0.93534654, 1.05445875, 1.16341595, 1.26116882,
@@ -126,7 +126,7 @@ print(string)
 print("Load weatherbench dataset...")
 dataset_train, dataset_val, dataset_test = load_weatherbench_data(weatherbench_data_folder, cuda, load_all_data_GPU,
                                                             return_test=True,
-                                                            weatherbench_small=weatherbench_small)
+                                                            weatherbench_small=weatherbench_small, predictionlength=prediction_length)
 print("Loaded")
 print("Validation set size:", len(dataset_val))
 print("Test set size:", len(dataset_test))
@@ -287,7 +287,7 @@ with torch.no_grad():
 
             forecasts = []
 
-            net.resetseed()
+            #net.resetseed()
 
             for step in range(prediction_length):
                 onesteps = []
@@ -320,16 +320,17 @@ with torch.no_grad():
 
 forecastslargetest = forecastslargetest
 predictionslargetest = predictionslargetest.squeeze(1)
-print(forecastslargetest.shape)
-print(predictionslargetest.shape)
-
+print(forecastslargetest.shape) #(11?, ensemble=5,path length=10, lat=32, long=64, 1)
+print(predictionslargetest.shape) #(11?,2, lat=32, long=64, 1)
+print('yo')
 ####Pick a prediction and part of pathlength
 
 #date = "2018-01-01"
-prediction = forecastslargetest[0,:,0,:,:,:].unsqueeze(0)
+prediction = forecastslargetest[10,1,:,:,:,:].unsqueeze(0)
 print(prediction.shape)
-realization = predictionslargetest[0,0,:,:,:].unsqueeze(0)
+realization = predictionslargetest[10,:,:,:,:].unsqueeze(0)
 print(realization.shape)
+#Each is torch.Size([1, 10, 32, 64, 1])
 #zero corresponds to 2018-01-11
 date = "2018-01-11"
 # predict for a given date and create the plot
@@ -337,7 +338,7 @@ with torch.no_grad():
     # obtain the target and context for the specified timestring
     timestring = date + "T12:00:00.000000000"
     _, realization1 = dataset_test.select_time(timestring)
-
+newdate = "2018-01-11 12:00:00 Initialisation"
 # print('yo')
 # print(realization)
 # print('yo1')
@@ -345,108 +346,108 @@ with torch.no_grad():
 
 
 prediction = prediction.cpu()
-realization = realization1
+realization = realization.cpu()
+realizationtest = realization1
+# ... [Your existing code until the plotting section] ...
 
-prediction_mean = prediction[0].mean(dim=0)
-prediction_std = prediction[0].std(dim=0)
-da_prediction_mean = convert_tensor_to_da(prediction_mean, realization)
-da_prediction_std = convert_tensor_to_da(prediction_std, realization)
 
-# prediction is shape ("batch_size", "number_generations", "height", "width", "fields"). Batch size should be 1.
+# Convert each time step to DataArray
+# Convert each time step to DataArray
+da_realizations = []
+for i in range(realization.shape[1]):  # Loop over time steps
+    da_realizations.append(convert_tensor_to_da(realization[0, i], realizationtest))
 
-# convert to an xarray DataArray:
 da_predictions = []
-for i in range(prediction.shape[1]):
-    da_predictions.append(convert_tensor_to_da(prediction[0, i], realization))
+for i in range(prediction.shape[1]):   # Loop over time steps
+    da_predictions.append(convert_tensor_to_da(prediction[0, i], realizationtest))
 
 if save_plots:
     global_projection = False
-    # we do plots with 5 predictions if not deterministic
-    if method == "regression":
-        n_predictions_for_plots = 1
-        kwargs_subplots = dict(ncols=2, nrows=1, figsize=(16 * 2.0 / 3, 2.5),
-                                subplot_kw=dict(projection=ccrs.PlateCarree(), facecolor="gray"))
-    else:
-        n_predictions_for_plots = 3
-        kwargs_subplots = dict(ncols=3, nrows=1, figsize=(16, 4.5),
-                                subplot_kw=dict(projection=ccrs.PlateCarree(), facecolor="gray"))
+    n_time_steps = prediction_length  # Path length (10)
+    half_steps = n_time_steps // 2    # 5
 
-    # --- plot the absolute values ---
-    fig, axes = plt.subplots(**kwargs_subplots)
-
-    # need to find max and min values over all graphs to have coherent colorbars.
-    vmax = max([prediction.max().detach().numpy(), realization.max()])
-    vmin = min([prediction.min().detach().numpy(), realization.min()])
-
-    # plot both the realization and the prediction:
-    p_real = plot_map_ax(realization[:, :, 0], title="Realization", ax=axes.flatten()[0],
-                            global_projection=global_projection, vmax=vmax, vmin=vmin)
-    for i in range(n_predictions_for_plots):
-        p_pred = plot_map_ax(da_predictions[i][:, :, 0],
-                                title=f"Prediction" + ("{i + 1}" if method != "regression" else ""),
-                                ax=axes.flatten()[i + 1], global_projection=global_projection, vmax=vmax, vmin=vmin)
-    # add now the colorbar:
+    # --- Plot 1: Absolute Values (4 rows) ---
+    fig, axes = plt.subplots(ncols=half_steps, nrows=4, 
+                             figsize=(25, 10),
+                             subplot_kw=dict(projection=ccrs.PlateCarree(), facecolor="gray"))
+    
+    # Global vmin/vmax for color consistency
+    all_data = np.concatenate([r.values for r in da_realizations] + [p.values for p in da_predictions])
+    vmax, vmin = np.max(all_data), np.min(all_data)
+    
+    # First half: Time steps 0-4
+    # Row 0: True realizations (0-4)
+    for i in range(half_steps):
+        plot_map_ax(da_realizations[i][:, :, 0], 
+                    title=f"True t={i}", 
+                    ax=axes[0, i], 
+                    global_projection=global_projection, 
+                    vmax=vmax, vmin=vmin)
+    
+    # Row 1: Predictions (0-4)
+    for i in range(half_steps):
+        p = plot_map_ax(da_predictions[i][:, :, 0], 
+                        title=f"Pred t={i}", 
+                        ax=axes[1, i], 
+                        global_projection=global_projection, 
+                        vmax=vmax, vmin=vmin)
+    
+    # Second half: Time steps 5-9
+    # Row 2: True realizations (5-9)
+    for i in range(half_steps, n_time_steps):
+        plot_map_ax(da_realizations[i][:, :, 0], 
+                    title=f"True t={i}", 
+                    ax=axes[2, i-half_steps], 
+                    global_projection=global_projection, 
+                    vmax=vmax, vmin=vmin)
+    
+    # Row 3: Predictions (5-9)
+    for i in range(half_steps, n_time_steps):
+        p = plot_map_ax(da_predictions[i][:, :, 0], 
+                        title=f"Pred t={i}", 
+                        ax=axes[3, i-half_steps], 
+                        global_projection=global_projection, 
+                        vmax=vmax, vmin=vmin)
+    
+    # Add colorbar and save
     fig.subplots_adjust(right=0.9)
     cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
-    fig.colorbar(p_pred, cax=cbar_ax)
-    fig.suptitle("Z500, " + date, size=20)
+    fig.colorbar(p, cax=cbar_ax)
+    fig.suptitle(f"Z500, {newdate}", size=20, y=0.95)
+    plt.savefig(nets_folder + f"map_absolute_split{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")
+    plt.close()
 
-    plt.savefig(nets_folder + f"map_absolute{name_postfix}." + ("pdf" if save_pdf else "png"))
-
-    # --- plot the differences from the realization ---
-    differences = [da_predictions[i] - realization for i in range(n_predictions_for_plots)]
-
-    fig, axes = plt.subplots(**kwargs_subplots)
-    # need to find max and min values over all graphs to have coherent colorbars.
-    vmax = max([differences[i].max() for i in range(n_predictions_for_plots)])
-    vmin = min([differences[i].min() for i in range(n_predictions_for_plots)])
-
-    for i in range(n_predictions_for_plots):
-        p_pred = plot_map_ax(differences[i][:, :, 0],
-                                title=f"Prediction" + ("{i + 1}" if method != "regression" else ""),
-                                ax=axes.flatten()[i + 1], global_projection=global_projection, vmax=vmax, vmin=vmin)
-    # add now the colorbar:
+    # --- Plot 2: Differences (2 rows) ---
+    fig, axes = plt.subplots(ncols=half_steps, nrows=2, 
+                             figsize=(25, 5),
+                             subplot_kw=dict(projection=ccrs.PlateCarree(), facecolor="gray"))
+    
+    differences = [da_predictions[i] - da_realizations[i] for i in range(n_time_steps)]
+    
+    # Global symmetric color scale for differences
+    diff_max = max(max(diff.values.max(), abs(diff.values.min())) for diff in differences)
+    vmin_diff, vmax_diff = -diff_max, diff_max
+    
+    # First half differences (0-4)
+    for i in range(half_steps):
+        p = plot_map_ax(differences[i][:, :, 0], 
+                        title=f"Diff t={i}", 
+                        ax=axes[0, i], 
+                        global_projection=global_projection, 
+                        vmin=vmin_diff, vmax=vmax_diff)  # Diverging colormap
+    
+    # Second half differences (5-9)
+    for i in range(half_steps, n_time_steps):
+        p = plot_map_ax(differences[i][:, :, 0], 
+                        title=f"Diff t={i}", 
+                        ax=axes[1, i-half_steps], 
+                        global_projection=global_projection, 
+                        vmin=vmin_diff, vmax=vmax_diff)
+    
+    # Add colorbar and save
     fig.subplots_adjust(right=0.9)
     cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
-    fig.colorbar(p_pred, cax=cbar_ax)
-    fig.suptitle("Z500, predictions - realization, " + date, size=20)
-
-    plt.savefig(nets_folder + f"map_differences{name_postfix}." + ("pdf" if save_pdf else "png"))
-
-    if method != "regression":
-        # --- plot the differences with respect to ensemble mean ---
-        differences = [da_predictions[i] - da_prediction_mean for i in range(n_predictions_for_plots)]
-        realization_diff = realization - da_prediction_mean
-
-        fig, axes = plt.subplots(**kwargs_subplots)
-        # need to find max and min values over all graphs to have coherent colorbars.
-        vmax = max([differences[i].max() for i in range(n_predictions_for_plots)])
-        vmin = min([differences[i].min() for i in range(n_predictions_for_plots)])
-
-        p_real = plot_map_ax(realization_diff[:, :, 0], title="Realization", ax=axes[0, 0],
-                                global_projection=global_projection, vmax=vmax, vmin=vmin)
-        for i in range(n_predictions_for_plots):
-            p_pred = plot_map_ax(differences[i][:, :, 0], title=f"Prediction {i + 1}",
-                                    ax=axes.flatten()[i + 1], global_projection=global_projection, vmax=vmax,
-                                    vmin=vmin)
-        # add now the colorbar:
-        fig.subplots_adjust(right=0.9)
-        cbar_ax = fig.add_axes([0.92, 0.15, 0.02, 0.7])
-        fig.colorbar(p_pred, cax=cbar_ax)
-        fig.suptitle("Z500, Centered in mean prediction, " + date, size=20)
-
-        plt.savefig(nets_folder + f"map_differences_ens_mean{name_postfix}." + ("pdf" if save_pdf else "png"))
-
-        # --- plot the ensemble mean and std ---
-
-        fig, axes = plt.subplots(ncols=2, nrows=1, figsize=(16 * 2.0 / 3, 3),
-                                    subplot_kw=dict(projection=ccrs.PlateCarree(), facecolor="gray"))
-
-        p_real = plot_map_ax(da_prediction_mean[:, :, 0], title="Mean", ax=axes[0],
-                                global_projection=global_projection)
-        p_pred = plot_map_ax(da_prediction_std[:, :, 0], title=f"Standard deviation",
-                                ax=axes[1], global_projection=global_projection)
-
-        fig.suptitle("Z500, Prediction mean and standard deviation, " + date, size=20)
-
-        plt.savefig(nets_folder + f"map_differences_mean_std{name_postfix}." + ("pdf" if save_pdf else "png"))
+    fig.colorbar(p, cax=cbar_ax)
+    fig.suptitle(f"Z500, Prediction - Realization, {newdate}", size=20, y=1.)
+    plt.savefig(nets_folder + f"map_differences_split{name_postfix}." + ("pdf" if save_pdf else "png"), bbox_inches="tight")
+    plt.close()
